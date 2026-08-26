@@ -1,0 +1,10 @@
+How dimension changes the latent geometry available for prediction.
+All panels contain the same eight state labels; only the transition family
+and latent dimension vary. Each heatmap shows the true pairwise Euclidean
+distances of the best-found latent geometry. Higher dimension allows the
+geometry to become more compatible with the transition constraints: the
+cyclic system reaches gain one in two dimensions, while the transposition
+families require increasingly uniform pairwise distances and reach gain
+one at the simplex dimension m=7. The additional dimensions do not encode
+new state information; they provide geometric degrees of freedom for
+realizing the transition family.

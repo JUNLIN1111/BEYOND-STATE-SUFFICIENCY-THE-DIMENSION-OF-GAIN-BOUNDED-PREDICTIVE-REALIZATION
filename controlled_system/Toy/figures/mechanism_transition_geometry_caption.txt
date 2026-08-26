@@ -1,0 +1,10 @@
+Same states, different predictive geometries. All three systems contain
+the same eight distinguishable states and use a two-dimensional latent
+space; only their transition families differ. The top row shows the
+controlled transition structures, and the bottom row shows representative
+latent geometries. Solid segments mark a current state pair and dashed
+segments mark its successors under one fixed action. The cyclic transition
+is realized non-expansively in two dimensions, whereas the adjacent- and
+complete-transposition families require larger best-found gains. Extra
+latent dimensions therefore need not encode new state information; they can
+provide the geometry needed to realize the transition family.

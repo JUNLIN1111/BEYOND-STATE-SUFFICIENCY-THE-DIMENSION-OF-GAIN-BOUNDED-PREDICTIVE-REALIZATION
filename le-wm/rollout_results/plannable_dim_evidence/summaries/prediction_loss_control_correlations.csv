@@ -1,0 +1,5 @@
+n,pearson,scope,spearman,x,y
+5,0.23990864545304388,no_bottleneck,-0.39999999999999997,final_pred_loss_mean_last_5k_steps,candidate_false_shortcut_rate
+5,-0.18933760126818813,no_bottleneck,0.39999999999999997,final_pred_loss_mean_last_5k_steps,SR
+5,-0.993181685724297,no_bottleneck,-0.9999999999999999,candidate_false_shortcut_rate,SR
+5,0.9520743126750102,no_bottleneck,0.8999999999999998,candidate_goal_metric_spearman,SR

@@ -1,0 +1,7 @@
+system,n,analytic_L1_threshold,empirical_random_threshold_tol_0.001,empirical_or_explicit_threshold_tol_0.001
+AdjacentSwap,4,3,,3
+AdjacentSwap,6,5,,5
+AllSwap,4,3,,3
+AllSwap,6,5,,5
+Cycle,4,2,,2
+Cycle,6,2,,2

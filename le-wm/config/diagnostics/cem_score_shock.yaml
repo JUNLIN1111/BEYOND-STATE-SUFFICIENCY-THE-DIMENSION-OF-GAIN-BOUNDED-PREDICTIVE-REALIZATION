@@ -1,0 +1,42 @@
+# Post-hoc CEM score-shock diagnostic example.
+# This does not change LeWorldModel training, model architecture, or planner behavior.
+# Run from repo root with scripts/cem_score_shock_diagnostic.py.
+
+trace_dir: results/cem_trace_state8_failure_full_v2
+dataset: /tmp/pusht_expert_train.h5
+output_dir: results/cem_score_shock_diagnostic
+
+models:
+  state8: /home/jw3425/.stable_worldmodel/pusht/state8_baseline_object.ckpt
+  state16: /home/jw3425/.stable_worldmodel/pusht/state16_baseline_object.ckpt
+  baseline192: /home/jw3425/.stable_worldmodel/pusht/baseline_object.ckpt
+
+# Prefix points for S_pred(k), S_actual(k), E_roll(k), shock(k).
+# For PushT eval horizon=5 and action_block=5, terminal CEM horizon is 25 raw steps.
+steps: [0, 5, 10, 15, 20, 25]
+
+# Candidate audit uses the same saved CEM candidate pool for every model.
+topk: 30
+random_candidates: 30
+max_calls: 0
+seed: 0
+
+# Distance scales reported in outputs:
+#   raw_l2sq: sum_j (a_j-b_j)^2
+#   per_dim_l2sq: raw_l2sq / latent_dim
+#   varnorm_l2sq: sum_j (a_j-b_j)^2 / Var_train[z_j]
+latent_variance_rows: 2048
+
+# False-perfect is a task-proxy diagnostic:
+#   predicted terminal latent score < pred epsilon
+#   and true terminal task-cost proxy > task epsilon.
+# NaN means "choose percentile defaults from audited rows".
+false_perfect_pred_epsilon: .nan
+false_perfect_task_epsilon: .nan
+
+img_size: 224
+batch_size: 16
+device: cuda
+env_name: swm/PushT-v1
+reset_state_tol: 1e-3
+candidate_actions_are_normalized: true

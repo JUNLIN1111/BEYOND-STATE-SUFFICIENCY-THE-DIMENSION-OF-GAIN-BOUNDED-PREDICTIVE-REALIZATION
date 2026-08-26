@@ -1,0 +1,15 @@
+system,n,m,seed,run_type,init_kind,objective,initial_required_gain,best_required_gain,final_required_gain,min_pairwise_distance,max_pairwise_distance,steps_run,restart_count,converged,stopped_reason
+AllSwap,8,1,0,random,random_gaussian,allswap_fast,16.641306906756185,16.641306906756185,116.64477552204326,1.0000000000000004,22.532624658631853,3,3,False,restarted_after_collision
+AllSwap,8,1,-1,explicit_initialization,grid,allswap_fast,7.0,7.0,691.7135788603198,1.0,7.0,3,3,False,restarted_after_collision
+AllSwap,8,2,0,random,random_gaussian,allswap_fast,7.229983933570351,5.326512722115278,7.059812922455135,0.9999999999999999,8.57256780858874,3,3,False,restarted_after_collision
+AllSwap,8,2,-1,explicit_initialization,grid,allswap_fast,2.8284271247461903,2.8284271247461903,5.326512722115278,1.0,2.8284271247461903,3,3,False,restarted_after_collision
+AllSwap,8,4,0,random,random_gaussian,allswap_fast,3.4745643455070523,2.8275395817269176,3.635755743940643,1.0000000000000002,2.827539581726918,3,3,False,restarted_after_collision
+AllSwap,8,4,-1,explicit_initialization,grid,allswap_fast,1.7320508075688772,1.7320508075688772,3.7299470062842106,1.0,1.7320508075688772,3,3,False,restarted_after_collision
+AllSwap,8,7,-1,analytic_construction,regular_simplex,allswap_fast,1.000000000000001,1.000000000000001,1.000000000000001,1.0,1.0000000000000013,0,0,True,max_steps
+AllSwap,16,1,0,random,random_gaussian,allswap_fast,184.47164134140877,74.87672992066173,232.61456715239638,1.0,130.25722775538736,3,3,False,restarted_after_collision
+AllSwap,16,1,-1,explicit_initialization,grid,allswap_fast,15.0,15.0,386.97572241548096,1.0,15.0,3,3,False,restarted_after_collision
+AllSwap,16,2,0,random,random_gaussian,allswap_fast,17.196486573115163,10.41506132912664,11.60572300847585,0.9999999999999999,16.57318122046142,3,3,False,restarted_after_collision
+AllSwap,16,2,-1,explicit_initialization,grid,allswap_fast,4.242640687119285,4.242640687119285,10.41506132912664,1.0,4.242640687119285,3,3,False,restarted_after_collision
+AllSwap,16,4,0,random,random_gaussian,allswap_fast,6.476620193455212,5.911670132851257,6.550353685367844,1.0,9.168145632889662,3,3,False,restarted_after_collision
+AllSwap,16,4,-1,explicit_initialization,grid,allswap_fast,2.0,2.0,5.911670132851257,1.0,2.0,3,3,False,restarted_after_collision
+AllSwap,16,15,-1,analytic_construction,regular_simplex,allswap_fast,1.0000000000000013,1.0000000000000013,1.0000000000000013,1.0,1.0000000000000018,0,0,True,max_steps

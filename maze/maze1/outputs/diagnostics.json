@@ -1,0 +1,32 @@
+[
+  {
+    "maze": "A",
+    "raw_coordinate_gain_h5_local": {
+      "horizon": 5,
+      "action_sequences": 1024,
+      "local_unordered_pairs": 210,
+      "p95": 2.23606797749979,
+      "max": 5.099019513592785
+    }
+  },
+  {
+    "maze": "B",
+    "raw_coordinate_gain_h5_local": {
+      "horizon": 5,
+      "action_sequences": 1024,
+      "local_unordered_pairs": 210,
+      "p95": 2.5495097567963922,
+      "max": 6.0
+    }
+  },
+  {
+    "maze": "C",
+    "raw_coordinate_gain_h5_local": {
+      "horizon": 5,
+      "action_sequences": 1024,
+      "local_unordered_pairs": 210,
+      "p95": 2.8284271247461903,
+      "max": 6.0
+    }
+  }
+]

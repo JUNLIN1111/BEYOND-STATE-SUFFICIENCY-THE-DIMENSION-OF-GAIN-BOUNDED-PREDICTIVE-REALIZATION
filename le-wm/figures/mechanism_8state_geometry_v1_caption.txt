@@ -1,0 +1,11 @@
+How dimension changes the geometry available to the same state set. All
+panels contain the same eight distinguishable states; rows differ only in
+the transition family and columns differ in latent dimension. In one
+dimension all states must lie on a line. As dimension increases, the
+encoder can realize richer pairwise geometries. The cyclic transition can
+be organized non-expansively in two dimensions, while the transposition
+families require more geometric freedom because their action constraints
+couple many state pairs. Edge overlays indicate the controlled transition
+structure; complete transpositions impose all-to-all pair constraints. For
+readability, one-dimensional panels use state-ordered equal display spacing;
+reported gains are recomputed from the normalized E1 embeddings.

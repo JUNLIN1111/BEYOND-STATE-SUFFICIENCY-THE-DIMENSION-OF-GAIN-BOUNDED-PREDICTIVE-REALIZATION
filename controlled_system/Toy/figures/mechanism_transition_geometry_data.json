@@ -1,0 +1,217 @@
+{
+  "caption": "Same states, different predictive geometries. All three systems contain\nthe same eight distinguishable states and use a two-dimensional latent\nspace; only their transition families differ. The top row shows the\ncontrolled transition structures, and the bottom row shows representative\nlatent geometries. Solid segments mark a current state pair and dashed\nsegments mark its successors under one fixed action. The cyclic transition\nis realized non-expansively in two dimensions, whereas the adjacent- and\ncomplete-transposition families require larger best-found gains. Extra\nlatent dimensions therefore need not encode new state information; they can\nprovide the geometry needed to realize the transition family.",
+  "input_results_csv": "outputs/dimension_gain_e1_full/e1_full_results.csv",
+  "input_summary_csv": "outputs/dimension_gain_e1_full/e1_full_summary.csv",
+  "m": 2,
+  "n": 8,
+  "outputs": {
+    "caption_txt": "figures/mechanism_transition_geometry_caption.txt",
+    "data_json": "figures/mechanism_transition_geometry_data.json",
+    "pdf": "figures/mechanism_transition_geometry.pdf",
+    "png": "figures/mechanism_transition_geometry.png",
+    "svg": "figures/mechanism_transition_geometry.svg"
+  },
+  "systems": [
+    {
+      "checkpoint_source": "completed full-run checkpoint",
+      "embedding_after_center_normalize_rigid_transform": [
+        [
+          1.2071067811865477,
+          0.5000000000000001
+        ],
+        [
+          0.5000000000000002,
+          1.2071067811865477
+        ],
+        [
+          -0.49999999999999994,
+          1.207106781186548
+        ],
+        [
+          -1.2071067811865477,
+          0.5000000000000002
+        ],
+        [
+          -1.2071067811865477,
+          -0.49999999999999994
+        ],
+        [
+          -0.5000000000000003,
+          -1.2071067811865477
+        ],
+        [
+          0.5,
+          -1.207106781186548
+        ],
+        [
+          1.2071067811865477,
+          -0.5000000000000003
+        ]
+      ],
+      "gain_from_full_run_csv": 1.0000000000000004,
+      "label": "Cycle",
+      "recomputed_hard_gain": 1.0000000000000004,
+      "rotation_degrees": 22.5,
+      "seed": null,
+      "witness": {
+        "action_index": 0,
+        "action_label": "cyclic action",
+        "action_selected_states": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "current_pair": [
+          4,
+          5
+        ],
+        "d_next": 1.0000000000000004,
+        "d_now": 1.0,
+        "ratio": 1.0000000000000004,
+        "successor_pair_ordered": [
+          5,
+          6
+        ],
+        "successor_pair_unordered": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "checkpoint_source": "completed full-run checkpoint",
+      "embedding_after_center_normalize_rigid_transform": [
+        [
+          -0.793323153845069,
+          -2.4315628345353937
+        ],
+        [
+          -0.9746385654856943,
+          -1.4453243434998873
+        ],
+        [
+          -0.014272640338764589,
+          -1.0982078913608284
+        ],
+        [
+          -0.20489403114557025,
+          -0.10173801151090207
+        ],
+        [
+          0.7414213094644639,
+          0.2534029907749431
+        ],
+        [
+          0.5473616029677545,
+          1.2511317077092337
+        ],
+        [
+          1.483476573020702,
+          1.602825840220382
+        ],
+        [
+          -0.7851310946378225,
+          1.9694725422024526
+        ]
+      ],
+      "gain_from_full_run_csv": 1.560477598995624,
+      "label": "Adjacent transpositions",
+      "recomputed_hard_gain": 1.560477598995624,
+      "rotation_degrees": 0.0,
+      "seed": 9,
+      "witness": {
+        "action_index": 2,
+        "action_label": "action 2: states 2 and 3",
+        "action_selected_states": [
+          2,
+          3
+        ],
+        "current_pair": [
+          3,
+          5
+        ],
+        "d_next": 2.4155391892935967,
+        "d_now": 1.5479486478039282,
+        "ratio": 1.560477598995624,
+        "successor_pair_ordered": [
+          2,
+          5
+        ],
+        "successor_pair_unordered": [
+          2,
+          5
+        ]
+      }
+    },
+    {
+      "checkpoint_source": "completed full-run checkpoint",
+      "embedding_after_center_normalize_rigid_transform": [
+        [
+          -0.05135807442645273,
+          -0.8847889754213627
+        ],
+        [
+          -1.4267874392156448,
+          -1.0871748052648755
+        ],
+        [
+          0.013065341140715996,
+          0.11313367865893223
+        ],
+        [
+          1.292526909564903,
+          -1.2376161411282367
+        ],
+        [
+          -1.5283956432095374,
+          0.3097993066275169
+        ],
+        [
+          1.5542635387755726,
+          0.13710963475453194
+        ],
+        [
+          -0.6207464492232689,
+          1.3648745496111727
+        ],
+        [
+          0.7674318165937124,
+          1.284662752162321
+        ]
+      ],
+      "gain_from_full_run_csv": 2.32477037253896,
+      "label": "Complete transpositions",
+      "recomputed_hard_gain": 2.3247703725389597,
+      "rotation_degrees": 0.0,
+      "seed": 5,
+      "witness": {
+        "action_index": 5,
+        "action_label": "action 5: states 0 and 6",
+        "action_selected_states": [
+          0,
+          6
+        ],
+        "current_pair": [
+          0,
+          3
+        ],
+        "d_next": 3.2301041377692234,
+        "d_now": 1.3894293285583807,
+        "ratio": 2.3247703725389597,
+        "successor_pair_ordered": [
+          6,
+          3
+        ],
+        "successor_pair_unordered": [
+          3,
+          6
+        ]
+      }
+    }
+  ]
+}

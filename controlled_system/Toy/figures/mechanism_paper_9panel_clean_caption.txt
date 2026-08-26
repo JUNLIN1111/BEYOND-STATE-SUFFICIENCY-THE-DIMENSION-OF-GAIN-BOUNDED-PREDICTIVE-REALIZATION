@@ -1,0 +1,6 @@
+Clean mechanism schematic. Each panel contains the same eight state labels;
+rows vary the transition family and columns vary the latent dimension.
+All transition arrows or pair-action edges for the corresponding family are
+shown. The coordinates are schematic for readability: one-dimensional line,
+two-dimensional plane, and a three-dimensional schematic projection. Numeric
+gain and prediction-error values are reported separately in the table.

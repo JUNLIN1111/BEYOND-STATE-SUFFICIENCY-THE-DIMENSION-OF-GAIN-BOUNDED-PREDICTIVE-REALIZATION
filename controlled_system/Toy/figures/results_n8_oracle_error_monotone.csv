@@ -1,0 +1,22 @@
+system,n,target_m,selected_source_m,selected_run_type,selected_init_kind,selected_seed,selected_exact_hard_required_gain,gain_budget_L,selected_oracle_mse_at_L1,selected_oracle_max_constraint_violation
+Cycle,8,1,1,random optimization,random_gaussian,7,3.34415294226573,1,7.91297446972331,2.22044604925031e-15
+Cycle,8,2,2,analytic construction,regular_polygon,,1,1,0,0
+Cycle,8,3,2,analytic construction,regular_polygon,,1,1,0,0
+Cycle,8,4,2,analytic construction,regular_polygon,,1,1,0,0
+Cycle,8,5,2,analytic construction,regular_polygon,,1,1,0,0
+Cycle,8,6,2,analytic construction,regular_polygon,,1,1,0,0
+Cycle,8,7,2,analytic construction,regular_polygon,,1,1,0,0
+Adjacent pair actions,8,1,1,random optimization,random_gaussian,1,4.67734576566653,1,1.73060691242047,1.69837477415058e-11
+Adjacent pair actions,8,2,2,random optimization,random_gaussian,9,1.56047759899562,1,0.0937518130936806,2.10400585842763e-11
+Adjacent pair actions,8,3,3,random optimization,random_gaussian,2,1.33580378671725,1,0.0402072504939369,1.4071632747914e-11
+Adjacent pair actions,8,4,4,random optimization,random_gaussian,8,1.2513252106928,1,0.0149132926821545,8.96882568213186e-12
+Adjacent pair actions,8,5,5,random optimization,random_gaussian,6,1.13092245579076,1,0.00421008303409817,2.35458319508552e-11
+Adjacent pair actions,8,6,6,random optimization,random_gaussian,3,1.05448626432967,1,0.00050754784494974,1.47237777525788e-11
+Adjacent pair actions,8,7,7,analytic construction,regular_simplex,,1,1,0,0
+All-pair actions,8,1,1,analytic construction,grid,,7,1,1.33384353741541,2.79158918203848e-11
+All-pair actions,8,2,2,analytic construction,grid,,2.82842712474619,1,0.164706085988115,2.77331491105315e-11
+All-pair actions,8,3,3,random optimization,random_gaussian,7,1.55596705160247,1,0.0447164865486947,1.53881352105145e-11
+All-pair actions,8,4,4,random optimization,random_gaussian,1,1.41421356250106,1,0.0183828080659288,2.22044604925031e-16
+All-pair actions,8,5,5,random optimization,random_gaussian,6,1.30433316272541,1,0.0117861581190426,4.04238864604167e-11
+All-pair actions,8,6,6,random optimization,random_gaussian,3,1.154700538386,1,0.00353324564619902,1.06203934535642e-12
+All-pair actions,8,7,7,analytic construction,regular_simplex,,1,1,0,0

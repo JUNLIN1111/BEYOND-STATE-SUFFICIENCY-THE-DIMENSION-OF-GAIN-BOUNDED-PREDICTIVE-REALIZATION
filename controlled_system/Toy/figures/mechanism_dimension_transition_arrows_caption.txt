@@ -1,0 +1,11 @@
+Dimension-wise transition-arrow mechanism. Columns show target latent
+dimensions m=1,2,3 for the same eight states. For each target dimension,
+completed full-run embeddings from lower dimensions are also allowed by
+padding unused coordinates with zeros, so the plotted profile respects the
+nested feasible sets. Colored arrows show one true transition action in
+the selected latent geometry. The first column in each row summarizes the
+transition family: one cyclic action, one action for each neighboring pair,
+or one action for every unordered pair. Reported error is the finite-state
+numerical oracle MSE at gain budget L=1. When a higher-dimensional optimizer
+finds a worse predictor-error geometry, the figure uses the lower-dimensional
+geometry with the extra coordinate set to zero.

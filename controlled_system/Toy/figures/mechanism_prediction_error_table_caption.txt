@@ -1,0 +1,5 @@
+Prediction-error summary for the mechanism figure. Values are computed from
+completed full-run E1 embeddings and the finite-state numerical oracle at
+gain budget L=1. For each target dimension m, lower-dimensional embeddings
+are allowed by zero-padding, so source dim records which completed embedding
+was selected for the monotone best-available error profile.

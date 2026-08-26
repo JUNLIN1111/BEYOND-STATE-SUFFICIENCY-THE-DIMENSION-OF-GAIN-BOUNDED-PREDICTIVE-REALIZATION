@@ -1,0 +1,13 @@
+system,system_label,n,optimized_threshold_tol,best_available_threshold_tol,analytic_L1_threshold,feasibility_tolerance
+AdjacentSwap,Adjacent transpositions,4,,3,3,0.001
+AdjacentSwap,Adjacent transpositions,6,,5,5,0.001
+AdjacentSwap,Adjacent transpositions,8,,7,7,0.001
+AdjacentSwap,Adjacent transpositions,10,,9,9,0.001
+AllSwap,Complete transpositions,4,,3,3,0.001
+AllSwap,Complete transpositions,6,,5,5,0.001
+AllSwap,Complete transpositions,8,,7,7,0.001
+AllSwap,Complete transpositions,10,,9,9,0.001
+Cycle,Cycle,4,,2,2,0.001
+Cycle,Cycle,6,,2,2,0.001
+Cycle,Cycle,8,,2,2,0.001
+Cycle,Cycle,10,,2,2,0.001

@@ -1,0 +1,1 @@
+E2 scaling for all-pair actions. Dashed curves are analytic lower bounds, solid curves are explicit grid constructions, and markers show direct optimized embeddings where those runs were performed.

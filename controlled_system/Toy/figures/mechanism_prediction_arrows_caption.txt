@@ -1,0 +1,10 @@
+Transition arrows and bounded-gain prediction error. All panels use the
+same eight state labels and completed full-run E1 embeddings. Arrows show
+one true transition action in the latent geometry: the cyclic action for
+Cycle and the hard-gain witness action for the two transposition families.
+Solid black segments mark the current witness pair, and dashed black
+segments mark its successor pair under that same action. The reported
+prediction error is the finite-state numerical oracle MSE at gain budget
+L=1, averaged over all actions in the transition family. As dimension gives
+the states more geometric room, the required gain and the constrained
+prediction error both decrease.

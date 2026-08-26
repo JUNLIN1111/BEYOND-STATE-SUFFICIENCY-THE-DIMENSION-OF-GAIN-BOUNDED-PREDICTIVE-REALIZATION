@@ -1,0 +1,78 @@
+{
+  "args": {
+    "beta_boundaries": [
+      0.3,
+      0.6
+    ],
+    "beta_values": [
+      10.0,
+      30.0,
+      100.0
+    ],
+    "eps": 1e-12,
+    "exact_tolerance": 1e-09,
+    "grad_clip": 10.0,
+    "improvement_tol": 1e-09,
+    "lr": 0.02,
+    "output_dir": "outputs/dimension_gain_e1_full_dryrun",
+    "patience": 2500,
+    "seeds": 1,
+    "steps": 1
+  },
+  "beta_boundaries": [
+    0.3,
+    0.6
+  ],
+  "beta_values": [
+    10.0,
+    30.0,
+    100.0
+  ],
+  "command_line": [
+    "run_e1_full.py",
+    "--steps",
+    "1",
+    "--seeds",
+    "1",
+    "--output-dir",
+    "outputs/dimension_gain_e1_full_dryrun"
+  ],
+  "cpu_only": true,
+  "dtype": "torch.float64",
+  "exact_tolerance": 1e-09,
+  "experiment": "E1 only",
+  "feasibility_tolerance": 0.001,
+  "gradient_clip_norm": 10.0,
+  "improvement_tolerance": 1e-09,
+  "interpretation": "optimized rows are empirical upper bounds on the dimension--gain profile",
+  "learning_rate": 0.02,
+  "m_values": "1..n-1",
+  "matplotlib_version": "3.9.2",
+  "n_values": [
+    4,
+    6,
+    8,
+    10
+  ],
+  "numpy_version": "1.26.4",
+  "optimization_steps_per_seed": 1,
+  "optimizer": "Adam",
+  "output_dir": "outputs/dimension_gain_e1_full_dryrun",
+  "pandas_version": "2.3.3",
+  "patience": 2500,
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python_version": "3.9.25 (main, Nov  3 2025, 22:33:05) \n[GCC 11.2.0]",
+  "pytorch_version": "2.8.0+cu128",
+  "random_optimization_seeds_per_configuration": 1,
+  "random_seed_values": [
+    0
+  ],
+  "reported_values": "exact hard gain",
+  "systems": [
+    "Cycle",
+    "Adjacent transpositions",
+    "Complete transpositions"
+  ],
+  "timestamp_utc": "2026-07-22T20:17:32.830262+00:00",
+  "training_objective": "smooth maximum of log distance ratios"
+}

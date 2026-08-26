@@ -1,0 +1,33 @@
+panel,data_role,system_label,curve_label,source,n,latent_dimension_m,best_optimized_hard_gain,median_optimized_hard_gain,optimized_hard_gain_q1,optimized_hard_gain_q3,analytic_threshold_m,analytic_dimension
+A,optimized_frontier,Cycle,Cycle optimized hard gain,completed_full_run_results,8,1.0,2.34594912688328,3.4470435847177123,2.918866969227383,3.637655750842921,,
+A,optimized_frontier,Cycle,Cycle optimized hard gain,completed_full_run_results,8,2.0,1.0000000001215807,1.0217129325499648,1.0012764015082205,1.1772848224671018,,
+A,optimized_frontier,Cycle,Cycle optimized hard gain,completed_full_run_results,8,3.0,1.0000000007492251,1.002136170177192,1.000028168544652,1.0032940547885534,,
+A,optimized_frontier,Cycle,Cycle optimized hard gain,completed_full_run_results,8,4.0,1.0000000002683205,1.000000000929043,1.0000000006585132,1.0010623419958502,,
+A,optimized_frontier,Cycle,Cycle optimized hard gain,completed_full_run_results,8,5.0,1.000000000254893,1.000000000952657,1.0000000006140275,1.000020837558356,,
+A,optimized_frontier,Cycle,Cycle optimized hard gain,completed_full_run_results,8,6.0,1.000000000560756,1.000011436460294,1.0000042064453574,1.000014680170481,,
+A,optimized_frontier,Cycle,Cycle optimized hard gain,completed_full_run_results,8,7.0,1.0000000000017268,1.000000000252904,1.000000000144326,1.0000000006424996,,
+A,optimized_frontier,Adjacent transpositions,Adjacent transpositions optimized hard gain,completed_full_run_results,8,1.0,3.206573975685469,4.208219817872858,3.80514694295109,4.324491944904859,,
+A,optimized_frontier,Adjacent transpositions,Adjacent transpositions optimized hard gain,completed_full_run_results,8,2.0,1.560477598995624,1.610056829840626,1.5934504919778578,1.6545078641255433,,
+A,optimized_frontier,Adjacent transpositions,Adjacent transpositions optimized hard gain,completed_full_run_results,8,3.0,1.314289182230122,1.332669651369201,1.316577257732447,1.3426182379056628,,
+A,optimized_frontier,Adjacent transpositions,Adjacent transpositions optimized hard gain,completed_full_run_results,8,4.0,1.2065334744207634,1.2199070887331764,1.2111984054148857,1.2316416520554494,,
+A,optimized_frontier,Adjacent transpositions,Adjacent transpositions optimized hard gain,completed_full_run_results,8,5.0,1.130922455790764,1.1463035320671886,1.1367532049826723,1.1497677751832,,
+A,optimized_frontier,Adjacent transpositions,Adjacent transpositions optimized hard gain,completed_full_run_results,8,6.0,1.0540327768345925,1.0544893775688,1.0542955104524705,1.082107049941757,,
+A,optimized_frontier,Adjacent transpositions,Adjacent transpositions optimized hard gain,completed_full_run_results,8,7.0,1.0000000000052995,1.0000000005118972,1.0000000003259002,1.0000000006377705,,
+A,optimized_frontier,Complete transpositions,Complete transpositions optimized hard gain,completed_full_run_results,8,1.0,5.535852320568658,5.53585232098351,5.535852320732051,5.535852321088724,,
+A,optimized_frontier,Complete transpositions,Complete transpositions optimized hard gain,completed_full_run_results,8,2.0,2.32477037253896,2.3270930444315265,2.3267107534886424,2.327205494273388,,
+A,optimized_frontier,Complete transpositions,Complete transpositions optimized hard gain,completed_full_run_results,8,3.0,1.5559670516024704,1.6798253611725242,1.5559670516900002,1.8205135948517128,,
+A,optimized_frontier,Complete transpositions,Complete transpositions optimized hard gain,completed_full_run_results,8,4.0,1.414213562501062,1.414213562776799,1.414213562624186,1.4142135629409354,,
+A,optimized_frontier,Complete transpositions,Complete transpositions optimized hard gain,completed_full_run_results,8,5.0,1.3043331627254149,1.306096865677471,1.305979103956601,1.306259482251284,,
+A,optimized_frontier,Complete transpositions,Complete transpositions optimized hard gain,completed_full_run_results,8,6.0,1.1547005383860045,1.1547005388277367,1.1547005386002342,1.166974165685911,,
+A,optimized_frontier,Complete transpositions,Complete transpositions optimized hard gain,completed_full_run_results,8,7.0,1.0000000000012412,1.0000000004894494,1.0000000003438054,1.0000000006855676,,
+A,analytic_threshold_marker,Cycle,Cycle: exact L=1 from m=2,analytic_formula,8,2.0,,,,,2.0,2.0
+A,analytic_threshold_marker,Adjacent transpositions,Transpositions: exact L=1 from m=7,analytic_formula,8,7.0,,,,,7.0,7.0
+A,analytic_threshold_marker,Complete transpositions,Transpositions: exact L=1 from m=7,analytic_formula,8,7.0,,,,,7.0,7.0
+B,analytic_dimension_curve,Cycle,Cycle,analytic_formula,4,,,,,,,2.0
+B,analytic_dimension_curve,Adjacent and complete transpositions,Adjacent and complete transpositions,analytic_formula,4,,,,,,,3.0
+B,analytic_dimension_curve,Cycle,Cycle,analytic_formula,6,,,,,,,2.0
+B,analytic_dimension_curve,Adjacent and complete transpositions,Adjacent and complete transpositions,analytic_formula,6,,,,,,,5.0
+B,analytic_dimension_curve,Cycle,Cycle,analytic_formula,8,,,,,,,2.0
+B,analytic_dimension_curve,Adjacent and complete transpositions,Adjacent and complete transpositions,analytic_formula,8,,,,,,,7.0
+B,analytic_dimension_curve,Cycle,Cycle,analytic_formula,10,,,,,,,2.0
+B,analytic_dimension_curve,Adjacent and complete transpositions,Adjacent and complete transpositions,analytic_formula,10,,,,,,,9.0

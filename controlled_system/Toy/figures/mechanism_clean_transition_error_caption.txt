@@ -1,0 +1,10 @@
+Mechanism view for the prediction-error result. The top row shows the
+transition family on the same eight states: a single cyclic action, one
+neighboring-pair action per adjacent pair, or one pair action for every
+unordered state pair. The bottom row shows the corresponding m=2 latent
+geometry from the completed full-run outputs. Colored arrows show one true
+action in latent space; fixed states are not annotated. The reported error
+is the finite-state numerical oracle MSE at gain budget L=1, while gain is
+the recomputed exact hard required gain. The systems differ not because the
+state set changes, but because their transition families impose different
+geometric constraints on the same eight labels.

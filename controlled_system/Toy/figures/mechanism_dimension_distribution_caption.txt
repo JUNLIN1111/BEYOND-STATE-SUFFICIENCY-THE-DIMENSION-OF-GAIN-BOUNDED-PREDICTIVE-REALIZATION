@@ -1,0 +1,9 @@
+Latent point distributions across dimensions. All panels use the same
+eight state labels and completed full-run E1 embeddings; only the
+transition family and latent dimension vary. The m=1 column shows the
+states on a single coordinate axis, m=2 shows the actual planar geometry,
+and m=3 shows the actual three-coordinate geometry rendered with a fixed
+camera. Coordinates are centered and scaled so the minimum pairwise
+distance is one. No PCA, MDS, or non-rigid transformation is used. Adding
+dimensions gives the same finite states more geometric room, which lowers
+the required predictor gain for the transition family.

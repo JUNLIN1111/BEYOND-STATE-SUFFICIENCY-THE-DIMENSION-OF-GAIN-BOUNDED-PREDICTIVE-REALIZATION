@@ -1,0 +1,87 @@
+# Python / local runtime
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Virtual environments and local configs
+.venv/
+venv/
+env/
+*.env
+.env*
+*:
+
+# Nested repositories / local histories
+# Keep the source files, but do not upload embedded git histories when packaging
+# this directory as a new GitHub repository.
+**/.git/
+
+# Demos are intentionally kept outside the public upload.
+demo/
+demos/
+Demo/
+Demos/
+*_demo/
+*demo_output*/
+
+# Demo/video artifacts
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Model checkpoints and learned binary artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.npy
+*.h5
+*.hdf5
+
+# Large generated experiment directories
+le-wm/outputs/
+maze/maze1/outputs/runs/
+controlled_system/Toy/experiments/
+
+# Local logs / tracking
+wandb/
+mlruns/
+logs/
+*.log
+
+# Keep lightweight paper-facing artifacts, summaries, and figures trackable.
+!controlled_system/Toy/outputs/
+!controlled_system/Toy/outputs/**/*.csv
+!controlled_system/Toy/outputs/**/*.json
+!controlled_system/Toy/outputs/**/*.md
+!maze/kt/outputs/
+!maze/kt/outputs/**/*.csv
+!maze/kt/outputs/**/*.json
+!maze/maze1/outputs/
+!maze/maze1/outputs/*.csv
+!maze/maze1/outputs/*.json
+!maze/maze1/outputs/*.png
+!le-wm/figures/
+!le-wm/figures/**/*.csv
+!le-wm/figures/**/*.json
+!le-wm/figures/**/*.md
+!le-wm/figures/**/*.txt
+!le-wm/figures/**/*.png
+!le-wm/figures/**/*.svg
+!le-wm/figures/**/*.pdf
+!le-wm/rollout_results/
+!le-wm/rollout_results/**/*.csv
+!le-wm/rollout_results/**/*.json
+!le-wm/rollout_results/**/*.md
+!le-wm/rollout_results/**/*.txt
+!le-wm/rollout_results/**/*.png
+!le-wm/rollout_results/**/*.svg
+!le-wm/rollout_results/**/*.pdf

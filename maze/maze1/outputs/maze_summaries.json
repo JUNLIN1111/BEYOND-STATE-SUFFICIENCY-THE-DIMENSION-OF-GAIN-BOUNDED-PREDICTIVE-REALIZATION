@@ -1,0 +1,41 @@
+[
+  {
+    "maze": "A",
+    "states": 64,
+    "actions": 4,
+    "training_transitions": 256,
+    "barriers": 6,
+    "connected_component_size": 64,
+    "reachable": 64,
+    "degree1_dead_ends": 0,
+    "start_goal_shortest_path": 14,
+    "graph_diameter": 14,
+    "mean_shortest_path_distance": 5.640873015873016
+  },
+  {
+    "maze": "B",
+    "states": 64,
+    "actions": 4,
+    "training_transitions": 256,
+    "barriers": 24,
+    "connected_component_size": 64,
+    "reachable": 64,
+    "degree1_dead_ends": 4,
+    "start_goal_shortest_path": 20,
+    "graph_diameter": 21,
+    "mean_shortest_path_distance": 7.8521825396825395
+  },
+  {
+    "maze": "C",
+    "states": 64,
+    "actions": 4,
+    "training_transitions": 256,
+    "barriers": 41,
+    "connected_component_size": 64,
+    "reachable": 64,
+    "degree1_dead_ends": 16,
+    "start_goal_shortest_path": 22,
+    "graph_diameter": 22,
+    "mean_shortest_path_distance": 7.349206349206349
+  }
+]

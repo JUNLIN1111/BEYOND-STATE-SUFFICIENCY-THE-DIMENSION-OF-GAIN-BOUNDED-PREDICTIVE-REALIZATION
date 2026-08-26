@@ -1,0 +1,1 @@
+E1 full-run dimension--gain frontiers. Points behind each curve are all random optimization seeds; solid curves are best optimized hard gains, dashed curves are medians, shaded bands are interquartile ranges, and stars mark analytic constructions where present. Optimized values are empirical upper bounds on the dimension--gain profile.

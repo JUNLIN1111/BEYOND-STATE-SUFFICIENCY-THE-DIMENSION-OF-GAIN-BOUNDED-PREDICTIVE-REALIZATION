@@ -1,0 +1,92 @@
+defaults:
+  - _self_
+  - data: pusht
+
+output_model_name: lewm
+subdir: ${hydra:job.id}
+
+num_workers: 6
+train_split: 0.9
+seed: 3072
+img_size: 224
+patch_size: 14
+encoder_scale: tiny
+dump_object: True
+
+trainer:
+  max_epochs: 100
+  devices: auto
+  accelerator: gpu
+  precision: bf16
+  gradient_clip_val: 1.0
+
+loader:
+  batch_size: 128
+  num_workers: ${num_workers}
+  persistent_workers: True
+  prefetch_factor: 3
+  pin_memory: True
+
+optimizer:
+  type: AdamW
+  lr: 5e-5
+  weight_decay: 1e-3
+
+wandb:
+  enabled: True
+  config:
+    entity: j75600121-imperial-college-london
+    project: lewm_pushT_base
+    name: ${output_model_name}
+    id: ${subdir}
+    resume: allow
+    log_model: False
+
+wm:
+  type: lewm
+  history_size: 3
+  num_preds: 1
+  embed_dim: 192
+  transition_bottleneck:
+    enabled: false
+    dim: 32
+    type: linear
+    hidden_dim: 256
+    activation: gelu
+    use_layernorm: false
+    code_type: linear
+    basis_type: mlp
+    basis_normalization: column_norm
+
+predictor:
+  depth: 6
+  heads: 16
+  mlp_dim: 2048
+  dim_head: 64
+  dropout: 0.1
+  emb_dropout: 0.0
+
+loss:
+  no_dynamics: False
+  shuffled_action_training: False
+  sigreg:
+    weight: 0.09
+    kwargs:
+      knots: 17
+      num_proj: 1024
+
+
+analysis:
+  enable_transition_geometry: False
+  enable_shuffled_action_control: False
+  enable_local_tangent_diagnostics: False
+  transition_anchor_mode: shifted
+  transition_eval_slice: all_shifted
+  log_every: 100
+  local_tangent_num_anchors: 128
+  local_tangent_num_neighbors: 64
+  local_tangent_basis_dim: 16
+  local_tangent_log_every: 500
+  enable_rollout_diagnostics: false
+  rollout_horizons: [1, 2, 4, 8]
+  rollout_log_every: 500

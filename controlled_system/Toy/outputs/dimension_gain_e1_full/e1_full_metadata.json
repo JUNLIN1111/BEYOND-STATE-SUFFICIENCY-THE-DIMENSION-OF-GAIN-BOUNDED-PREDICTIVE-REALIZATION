@@ -1,0 +1,92 @@
+{
+  "args": {
+    "beta_boundaries": [
+      0.3,
+      0.6
+    ],
+    "beta_values": [
+      10.0,
+      30.0,
+      100.0
+    ],
+    "eps": 1e-12,
+    "exact_tolerance": 1e-09,
+    "grad_clip": 10.0,
+    "improvement_tol": 1e-09,
+    "lr": 0.02,
+    "output_dir": "outputs/dimension_gain_e1_full",
+    "patience": 15001,
+    "seeds": 10,
+    "steps": 15000
+  },
+  "beta_boundaries": [
+    0.3,
+    0.6
+  ],
+  "beta_values": [
+    10.0,
+    30.0,
+    100.0
+  ],
+  "command_line": [
+    "run_e1_full.py",
+    "--output-dir",
+    "outputs/dimension_gain_e1_full",
+    "--steps",
+    "15000",
+    "--seeds",
+    "10",
+    "--patience",
+    "15001"
+  ],
+  "cpu_only": true,
+  "dtype": "torch.float64",
+  "exact_tolerance": 1e-09,
+  "experiment": "E1 only",
+  "feasibility_tolerance": 1e-09,
+  "gradient_clip_norm": 10.0,
+  "improvement_tolerance": 1e-09,
+  "interpretation": "optimized rows are empirical upper bounds on the dimension--gain profile",
+  "learning_rate": 0.02,
+  "m_values": "1..n-1",
+  "matplotlib_version": "3.9.2",
+  "n_values": [
+    4,
+    6,
+    8,
+    10
+  ],
+  "numpy_version": "1.26.4",
+  "optimization_steps_per_seed": 15000,
+  "optimizer": "Adam",
+  "output_dir": "outputs/dimension_gain_e1_full",
+  "pandas_version": "2.3.3",
+  "patience": 15001,
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "postprocess_timestamp_utc": "2026-07-23T17:55:11.545044+00:00",
+  "postprocessed_from_results": "outputs/dimension_gain_e1_full/e1_full_results.csv",
+  "python_version": "3.9.25 (main, Nov  3 2025, 22:33:05) \n[GCC 11.2.0]",
+  "pytorch_version": "2.8.0+cu128",
+  "random_optimization_seeds_per_configuration": 10,
+  "random_seed_values": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "reported_values": "exact hard gain",
+  "systems": [
+    "Cycle",
+    "Adjacent transpositions",
+    "Complete transpositions"
+  ],
+  "terminology_note": "Adjacent transpositions use one action per adjacent pair; complete transpositions use one action per unordered pair. Each such action sends the two selected states to each other and leaves all other states fixed.",
+  "timestamp_utc": "2026-07-22T20:19:13.387387+00:00",
+  "training_objective": "smooth maximum of log distance ratios"
+}

@@ -1,0 +1,9 @@
+Schematic mechanism figure for the finite-state prediction experiment.
+Every panel contains the same eight state labels. Rows differ only in the
+transition family: one cyclic action, seven neighboring-pair actions, or
+twenty-eight all-pair actions. Columns show schematic latent geometries in
+one, two, and three dimensions. All transition arrows/edges for the family
+are drawn in each panel. Numbers report the best-available full-run
+required gain and finite-state numerical oracle MSE at gain budget L=1;
+the coordinates are schematic for readability rather than raw checkpoint
+coordinates.

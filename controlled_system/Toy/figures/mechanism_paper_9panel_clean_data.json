@@ -1,0 +1,21 @@
+{
+  "caption": "Clean mechanism schematic. Each panel contains the same eight state labels;\nrows vary the transition family and columns vary the latent dimension.\nAll transition arrows or pair-action edges for the corresponding family are\nshown. The coordinates are schematic for readability: one-dimensional line,\ntwo-dimensional plane, and a three-dimensional schematic projection. Numeric\ngain and prediction-error values are reported separately in the table.",
+  "coordinates": "schematic, not raw checkpoint coordinates",
+  "dimensions": [
+    1,
+    2,
+    3
+  ],
+  "n": 8,
+  "numeric_values": "figures/mechanism_prediction_error_table_monotone.csv",
+  "systems": [
+    "Cycle",
+    "Adjacent pair actions",
+    "All-pair actions"
+  ],
+  "transition_drawing": {
+    "Adjacent pair actions": "all 7 neighboring-pair bidirectional edges",
+    "All-pair actions": "all 28 unordered-pair bidirectional edges",
+    "Cycle": "all 8 directed arrows"
+  }
+}

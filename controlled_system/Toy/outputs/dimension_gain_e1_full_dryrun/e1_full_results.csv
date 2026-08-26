@@ -1,0 +1,125 @@
+system,n,m,seed,run_type,init_kind,objective,initial_required_gain,best_required_gain,final_required_gain,min_pairwise_distance,max_pairwise_distance,steps_run,restart_count,converged,stopped_reason,system_label,reported_value
+Cycle,4,1,0.0,random_optimization,random_gaussian,generic,4.315996449900963,4.111535051224615,4.111535051224615,0.9999999999999999,4.111535051224614,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,4,2,0.0,random_optimization,random_gaussian,generic,2.3797525048703694,2.2523412927405566,2.2523412927405566,1.0,2.2523412927405566,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,4,3,0.0,random_optimization,random_gaussian,generic,1.6378261043361375,1.5589120565987942,1.5589120565987942,0.9999999999999999,2.085708854220022,1,0,False,max_steps,Cycle,exact hard gain
+AdjacentSwap,4,1,0.0,random_optimization,random_gaussian,generic,3.8247172547191135,3.6937840666021993,3.6937840666021993,1.0,4.315996455086756,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,4,2,0.0,random_optimization,random_gaussian,generic,1.775399896874295,1.6660233109102365,1.6660233109102365,1.0,2.2611873710488837,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,4,3,0.0,random_optimization,random_gaussian,generic,1.601960013301587,1.5271190424839074,1.5271190424839074,1.0000000000000002,2.132426329481782,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AllSwap,4,1,0.0,random_optimization,random_gaussian,generic,3.8247172547191135,3.6937840665566597,3.6937840665566597,1.0,4.315996455348607,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,4,2,0.0,random_optimization,random_gaussian,generic,2.3797525048703694,2.2523412930637354,2.2523412930637354,0.9999999999999998,2.252341293063735,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,4,3,0.0,random_optimization,random_gaussian,generic,2.081382827178598,1.9471573477673387,1.9471573477673387,1.0,1.9471573477673387,1,0,False,max_steps,Complete transpositions,exact hard gain
+Cycle,6,1,0.0,random_optimization,random_gaussian,generic,9.359578849677138,8.999595053019618,8.999595053019618,1.0,11.34977005172161,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,6,2,0.0,random_optimization,random_gaussian,generic,3.6614699238608424,3.4571534487106614,3.4571534487106614,1.0,6.092951749980772,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,6,3,0.0,random_optimization,random_gaussian,generic,2.67364128358615,2.460518146282032,2.460518146282032,0.9999999999999998,2.9699133321862083,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,6,4,0.0,random_optimization,random_gaussian,generic,2.107336066091135,1.8977564836684835,1.8977564836684835,1.0,2.840306294615406,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,6,5,0.0,random_optimization,random_gaussian,generic,1.6641151842224202,1.4872390152580817,1.4872390152580817,1.0,2.2036423309389033,1,0,False,max_steps,Cycle,exact hard gain
+AdjacentSwap,6,1,0.0,random_optimization,random_gaussian,generic,6.262959060624613,6.022076023365631,6.022076023365631,1.0,11.388168565159356,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,6,2,0.0,random_optimization,random_gaussian,generic,2.533860894560602,2.4623391321543266,2.4623391321543266,1.0,6.384249095412021,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,6,3,0.0,random_optimization,random_gaussian,generic,2.641438135202161,2.4836764129169038,2.4836764129169038,0.9999999999999999,2.947944249082343,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,6,4,0.0,random_optimization,random_gaussian,generic,2.6121797133070928,2.4626986131434525,2.4626986131434525,1.0000000000000002,2.892607155337923,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,6,5,0.0,random_optimization,random_gaussian,generic,2.075420034289245,1.971744014662227,1.971744014662227,1.0000000000000002,2.220051603165165,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AllSwap,6,1,0.0,random_optimization,random_gaussian,generic,9.359578849677138,8.999595052906036,8.999595052906036,1.0,11.388167786233335,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,6,2,0.0,random_optimization,random_gaussian,generic,3.7836155515532437,3.6130356741304075,3.6130356741304075,1.0,6.047215491223423,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,6,3,0.0,random_optimization,random_gaussian,generic,3.1122741064223094,2.9302086878076636,2.9302086878076636,1.0,2.9302086878076636,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,6,4,0.0,random_optimization,random_gaussian,generic,2.9167473770338286,2.7170937060495515,2.7170937060495515,0.9999999999999999,2.855389523729662,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,6,5,0.0,random_optimization,random_gaussian,generic,2.3998615994835024,2.2036423196777046,2.2036423196777046,0.9999999999999999,2.203642319677704,1,0,False,max_steps,Complete transpositions,exact hard gain
+Cycle,8,1,0.0,random_optimization,random_gaussian,generic,11.645851031994903,11.19793367866126,11.19793367866126,1.0000000000000004,21.627600659144214,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,8,2,0.0,random_optimization,random_gaussian,generic,6.107649416099995,5.845807320901532,5.845807320901532,1.0000000000000002,7.170279606509331,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,8,3,0.0,random_optimization,random_gaussian,generic,2.868329550196715,2.7509453661834873,2.7509453661834873,1.0000000000000002,4.886763882449842,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,8,4,0.0,random_optimization,random_gaussian,generic,2.6879474446148,2.4919956919393416,2.4919956919393416,1.0000000000000002,3.4326470275109027,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,8,5,0.0,random_optimization,random_gaussian,generic,2.099878953339997,1.9541646319990742,1.9541646319990742,0.9999999999999999,3.372413213261383,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,8,6,0.0,random_optimization,random_gaussian,generic,4.441789059234931,4.025308665498486,4.025308665498486,1.0000000000000002,4.688429334063888,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,8,7,0.0,random_optimization,random_gaussian,generic,2.5078152024172544,2.2188257997468153,2.2188257997468153,1.0,2.392889737325219,1,0,False,max_steps,Cycle,exact hard gain
+AdjacentSwap,8,1,0.0,random_optimization,random_gaussian,generic,15.641306906756185,15.001256650398073,15.001256650398073,1.0,21.66381572926767,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,8,2,0.0,random_optimization,random_gaussian,generic,5.831592957912364,5.525993748283953,5.525993748283953,1.0000000000000002,7.141830101807453,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,8,3,0.0,random_optimization,random_gaussian,generic,3.349273259668582,3.2214472612896197,3.2214472612896197,1.0000000000000002,4.592862522704342,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,8,4,0.0,random_optimization,random_gaussian,generic,2.9614839532127566,2.7210790684613375,2.7210790684613375,1.0,3.3170688293396706,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,8,5,0.0,random_optimization,random_gaussian,generic,2.0260033780144115,1.9119140905344711,1.9119140905344711,1.0,3.3516063347569447,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,8,6,0.0,random_optimization,random_gaussian,generic,3.933835599545173,3.614916611891788,3.614916611891788,1.0,4.668317025492108,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,8,7,0.0,random_optimization,random_gaussian,generic,2.188427053810852,2.0353737106781735,2.0353737106781735,0.9999999999999999,2.3262007734184302,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AllSwap,8,1,0.0,random_optimization,random_gaussian,generic,16.641306906756185,16.00125665054804,16.00125665054804,1.0000000000000004,21.62752489746021,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,8,2,0.0,random_optimization,random_gaussian,generic,7.229983933570351,6.851103343493236,6.851103343493236,1.0000000000000002,7.170168386434714,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,8,3,0.0,random_optimization,random_gaussian,generic,4.843100007099807,4.535328754074352,4.535328754074352,1.0000000000000002,4.535328754074353,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,8,4,0.0,random_optimization,random_gaussian,generic,3.4745643455070523,3.20636060026971,3.20636060026971,0.9999999999999999,3.35582765330114,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,8,5,0.0,random_optimization,random_gaussian,generic,2.7983912879867217,2.6730790848054253,2.6730790848054253,0.9999999999999999,3.330171668629208,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,8,6,0.0,random_optimization,random_gaussian,generic,3.933835599545173,3.61491661452867,3.61491661452867,0.9999999999999999,4.643977250052374,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,8,7,0.0,random_optimization,random_gaussian,generic,2.467050457055998,2.302429431525516,2.302429431525516,1.0000000000000002,2.3024294315255163,1,0,False,max_steps,Complete transpositions,exact hard gain
+Cycle,10,1,0.0,random_optimization,random_gaussian,generic,33.842499918266654,32.50240379308196,32.50240379308196,1.0,32.50240379308196,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,10,2,0.0,random_optimization,random_gaussian,generic,33.16020304858486,31.53802539873116,31.53802539873116,1.0,37.55117513202399,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,10,3,0.0,random_optimization,random_gaussian,generic,4.939815473352534,4.611839295508623,4.611839295508623,0.9999999999999999,6.579830163511272,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,10,4,0.0,random_optimization,random_gaussian,generic,2.681462046276218,2.525852794209221,2.525852794209221,1.0000000000000002,3.917890893142021,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,10,5,0.0,random_optimization,random_gaussian,generic,2.86785262909654,2.5946386928245433,2.5946386928245433,1.0000000000000002,3.151401933373762,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,10,6,0.0,random_optimization,random_gaussian,generic,4.441789059234931,4.032608619271602,4.032608619271602,1.0,5.087281640618608,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,10,7,0.0,random_optimization,random_gaussian,generic,1.7708079942442965,1.608860429802704,1.608860429802704,1.0,2.8787428414821794,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,10,8,0.0,random_optimization,random_gaussian,generic,2.0796251505799557,1.879597246561344,1.879597246561344,1.0,2.806223615147883,1,0,False,max_steps,Cycle,exact hard gain
+Cycle,10,9,0.0,random_optimization,random_gaussian,generic,1.8003051840697502,1.6905311606848616,1.6905311606848616,1.0,2.984932054579274,1,0,False,max_steps,Cycle,exact hard gain
+AdjacentSwap,10,1,0.0,random_optimization,random_gaussian,generic,17.68954528375583,17.009178171227518,17.009178171227518,1.0,32.50240379778126,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,10,2,0.0,random_optimization,random_gaussian,generic,23.17509708428571,22.066680428738163,22.066680428738163,1.0000000000000013,37.5435839987094,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,10,3,0.0,random_optimization,random_gaussian,generic,5.5631375854176195,5.216850855776587,5.216850855776587,1.0000000000000002,6.609072440382409,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,10,4,0.0,random_optimization,random_gaussian,generic,2.9614839532127566,2.7822357920773553,2.7822357920773553,0.9999999999999998,3.932545057363565,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,10,5,0.0,random_optimization,random_gaussian,generic,2.994755007836544,2.7596266354488046,2.7596266354488046,1.0000000000000002,3.1652843333826786,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,10,6,0.0,random_optimization,random_gaussian,generic,3.9338355995451724,3.614916612811334,3.614916612811334,1.0000000000000002,5.066307812254972,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,10,7,0.0,random_optimization,random_gaussian,generic,2.203786625151081,2.039471441902731,2.039471441902731,1.0000000000000002,2.7764697740626354,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,10,8,0.0,random_optimization,random_gaussian,generic,2.8425749757185255,2.5601132371281494,2.5601132371281494,0.9999999999999999,2.8040573740447226,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AdjacentSwap,10,9,0.0,random_optimization,random_gaussian,generic,1.9551778730006832,1.7895150153977775,1.7895150153977775,1.0000000000000002,3.1607235958175486,1,0,False,max_steps,Adjacent transpositions,exact hard gain
+AllSwap,10,1,0.0,random_optimization,random_gaussian,generic,17.689545283755834,17.009178173629483,17.009178173629483,1.0,32.50240379871728,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,10,2,0.0,random_optimization,random_gaussian,generic,31.22890069817687,29.748402583692727,29.748402583692727,0.9999999999999988,37.541720962292494,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,10,3,0.0,random_optimization,random_gaussian,generic,5.825710829402765,5.482558080333586,5.482558080333586,1.0,6.599880564801086,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,10,4,0.0,random_optimization,random_gaussian,generic,3.6329327199217696,3.3802108730289526,3.3802108730289526,1.0000000000000002,3.8328075853699946,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,10,5,0.0,random_optimization,random_gaussian,generic,3.3710498810591605,3.1299331364294063,3.1299331364294063,1.0000000000000002,3.132386932771425,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,10,6,0.0,random_optimization,random_gaussian,generic,4.365261218753036,4.020614042382057,4.020614042382057,1.0,5.066306953839703,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,10,7,0.0,random_optimization,random_gaussian,generic,2.334006578950481,2.146025923826301,2.146025923826301,1.0000000000000002,2.7479195509594754,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,10,8,0.0,random_optimization,random_gaussian,generic,2.8425749757185255,2.560113244752851,2.560113244752851,1.0,2.782737171995134,1,0,False,max_steps,Complete transpositions,exact hard gain
+AllSwap,10,9,0.0,random_optimization,random_gaussian,generic,2.7057090473745458,2.5001424508143706,2.5001424508143706,1.0000000000000002,2.9460156592564886,1,0,False,max_steps,Complete transpositions,exact hard gain
+Cycle,4,2,,analytic_construction,regular_polygon,none,1.0000000000000002,1.0000000000000002,1.0000000000000002,1.0,1.4142135623730951,0,0,True,analytic_evaluation,Cycle,exact hard gain
+Cycle,4,3,,analytic_construction,regular_polygon,none,1.0000000000000002,1.0000000000000002,1.0000000000000002,1.0,1.4142135623730951,0,0,True,analytic_evaluation,Cycle,exact hard gain
+AdjacentSwap,4,3,,analytic_construction,regular_simplex,none,1.0000000000000007,1.0000000000000007,1.0000000000000007,1.0000000000000002,1.0000000000000007,0,0,True,analytic_evaluation,Adjacent transpositions,exact hard gain
+AllSwap,4,1,,analytic_construction,grid,none,3.0,3.0,3.0,1.0,3.0,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,4,2,,analytic_construction,grid,none,1.4142135623730951,1.4142135623730951,1.4142135623730951,1.0,1.4142135623730951,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,4,3,,analytic_construction,regular_simplex,none,1.0000000000000004,1.0000000000000004,1.0000000000000004,1.0000000000000002,1.0000000000000007,0,0,True,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,4,3,,analytic_construction,grid,none,1.4142135623730951,1.4142135623730951,1.4142135623730951,1.0,1.4142135623730951,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+Cycle,6,2,,analytic_construction,regular_polygon,none,1.0000000000000009,1.0000000000000009,1.0000000000000009,1.0,2.000000000000001,0,0,True,analytic_evaluation,Cycle,exact hard gain
+Cycle,6,3,,analytic_construction,regular_polygon,none,1.0000000000000009,1.0000000000000009,1.0000000000000009,1.0,2.000000000000001,0,0,True,analytic_evaluation,Cycle,exact hard gain
+Cycle,6,4,,analytic_construction,regular_polygon,none,1.0000000000000009,1.0000000000000009,1.0000000000000009,1.0,2.000000000000001,0,0,True,analytic_evaluation,Cycle,exact hard gain
+Cycle,6,5,,analytic_construction,regular_polygon,none,1.0000000000000009,1.0000000000000009,1.0000000000000009,1.0,2.000000000000001,0,0,True,analytic_evaluation,Cycle,exact hard gain
+AdjacentSwap,6,5,,analytic_construction,regular_simplex,none,1.0000000000000007,1.0000000000000007,1.0000000000000007,1.0,1.000000000000001,0,0,True,analytic_evaluation,Adjacent transpositions,exact hard gain
+AllSwap,6,1,,analytic_construction,grid,none,5.0,5.0,5.0,1.0,5.0,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,6,2,,analytic_construction,grid,none,2.23606797749979,2.23606797749979,2.23606797749979,1.0,2.23606797749979,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,6,3,,analytic_construction,grid,none,1.7320508075688772,1.7320508075688772,1.7320508075688772,1.0,1.7320508075688772,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,6,4,,analytic_construction,grid,none,1.7320508075688772,1.7320508075688772,1.7320508075688772,1.0,1.7320508075688772,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,6,5,,analytic_construction,regular_simplex,none,1.0000000000000009,1.0000000000000009,1.0000000000000009,1.0,1.000000000000001,0,0,True,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,6,5,,analytic_construction,grid,none,1.7320508075688772,1.7320508075688772,1.7320508075688772,1.0,1.7320508075688772,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+Cycle,8,2,,analytic_construction,regular_polygon,none,1.0000000000000004,1.0000000000000004,1.0000000000000004,0.9999999999999999,2.613125929752753,0,0,True,analytic_evaluation,Cycle,exact hard gain
+Cycle,8,3,,analytic_construction,regular_polygon,none,1.0000000000000004,1.0000000000000004,1.0000000000000004,0.9999999999999999,2.613125929752753,0,0,True,analytic_evaluation,Cycle,exact hard gain
+Cycle,8,4,,analytic_construction,regular_polygon,none,1.0000000000000004,1.0000000000000004,1.0000000000000004,0.9999999999999999,2.613125929752753,0,0,True,analytic_evaluation,Cycle,exact hard gain
+Cycle,8,5,,analytic_construction,regular_polygon,none,1.0000000000000004,1.0000000000000004,1.0000000000000004,0.9999999999999999,2.613125929752753,0,0,True,analytic_evaluation,Cycle,exact hard gain
+Cycle,8,6,,analytic_construction,regular_polygon,none,1.0000000000000004,1.0000000000000004,1.0000000000000004,0.9999999999999999,2.613125929752753,0,0,True,analytic_evaluation,Cycle,exact hard gain
+Cycle,8,7,,analytic_construction,regular_polygon,none,1.0000000000000004,1.0000000000000004,1.0000000000000004,0.9999999999999999,2.613125929752753,0,0,True,analytic_evaluation,Cycle,exact hard gain
+AdjacentSwap,8,7,,analytic_construction,regular_simplex,none,1.0000000000000009,1.0000000000000009,1.0000000000000009,1.0,1.0000000000000013,0,0,True,analytic_evaluation,Adjacent transpositions,exact hard gain
+AllSwap,8,1,,analytic_construction,grid,none,7.0,7.0,7.0,1.0,7.0,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,8,2,,analytic_construction,grid,none,2.8284271247461903,2.8284271247461903,2.8284271247461903,1.0,2.8284271247461903,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,8,3,,analytic_construction,grid,none,1.7320508075688772,1.7320508075688772,1.7320508075688772,1.0,1.7320508075688772,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,8,4,,analytic_construction,grid,none,1.7320508075688772,1.7320508075688772,1.7320508075688772,1.0,1.7320508075688772,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,8,5,,analytic_construction,grid,none,1.7320508075688772,1.7320508075688772,1.7320508075688772,1.0,1.7320508075688772,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,8,6,,analytic_construction,grid,none,1.7320508075688772,1.7320508075688772,1.7320508075688772,1.0,1.7320508075688772,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,8,7,,analytic_construction,regular_simplex,none,1.000000000000001,1.000000000000001,1.000000000000001,1.0,1.0000000000000013,0,0,True,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,8,7,,analytic_construction,grid,none,1.7320508075688772,1.7320508075688772,1.7320508075688772,1.0,1.7320508075688772,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+Cycle,10,2,,analytic_construction,regular_polygon,none,1.0000000000000004,1.0000000000000004,1.0000000000000004,1.0,3.2360679774997902,0,0,True,analytic_evaluation,Cycle,exact hard gain
+Cycle,10,3,,analytic_construction,regular_polygon,none,1.0000000000000004,1.0000000000000004,1.0000000000000004,1.0,3.2360679774997902,0,0,True,analytic_evaluation,Cycle,exact hard gain
+Cycle,10,4,,analytic_construction,regular_polygon,none,1.0000000000000004,1.0000000000000004,1.0000000000000004,1.0,3.2360679774997902,0,0,True,analytic_evaluation,Cycle,exact hard gain
+Cycle,10,5,,analytic_construction,regular_polygon,none,1.0000000000000004,1.0000000000000004,1.0000000000000004,1.0,3.2360679774997902,0,0,True,analytic_evaluation,Cycle,exact hard gain
+Cycle,10,6,,analytic_construction,regular_polygon,none,1.0000000000000004,1.0000000000000004,1.0000000000000004,1.0,3.2360679774997902,0,0,True,analytic_evaluation,Cycle,exact hard gain
+Cycle,10,7,,analytic_construction,regular_polygon,none,1.0000000000000004,1.0000000000000004,1.0000000000000004,1.0,3.2360679774997902,0,0,True,analytic_evaluation,Cycle,exact hard gain
+Cycle,10,8,,analytic_construction,regular_polygon,none,1.0000000000000004,1.0000000000000004,1.0000000000000004,1.0,3.2360679774997902,0,0,True,analytic_evaluation,Cycle,exact hard gain
+Cycle,10,9,,analytic_construction,regular_polygon,none,1.0000000000000004,1.0000000000000004,1.0000000000000004,1.0,3.2360679774997902,0,0,True,analytic_evaluation,Cycle,exact hard gain
+AdjacentSwap,10,9,,analytic_construction,regular_simplex,none,1.0000000000000009,1.0000000000000009,1.0000000000000009,0.9999999999999999,1.0000000000000013,0,0,True,analytic_evaluation,Adjacent transpositions,exact hard gain
+AllSwap,10,1,,analytic_construction,grid,none,9.0,9.0,9.0,1.0,9.0,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,10,2,,analytic_construction,grid,none,3.605551275463989,3.605551275463989,3.605551275463989,1.0,3.605551275463989,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,10,3,,analytic_construction,grid,none,3.0,3.0,3.0,1.0,3.0,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,10,4,,analytic_construction,grid,none,2.0,2.0,2.0,1.0,2.0,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,10,5,,analytic_construction,grid,none,2.0,2.0,2.0,1.0,2.0,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,10,6,,analytic_construction,grid,none,2.0,2.0,2.0,1.0,2.0,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,10,7,,analytic_construction,grid,none,2.0,2.0,2.0,1.0,2.0,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,10,8,,analytic_construction,grid,none,2.0,2.0,2.0,1.0,2.0,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,10,9,,analytic_construction,regular_simplex,none,1.000000000000001,1.000000000000001,1.000000000000001,0.9999999999999999,1.0000000000000013,0,0,True,analytic_evaluation,Complete transpositions,exact hard gain
+AllSwap,10,9,,analytic_construction,grid,none,2.0,2.0,2.0,1.0,2.0,0,0,False,analytic_evaluation,Complete transpositions,exact hard gain

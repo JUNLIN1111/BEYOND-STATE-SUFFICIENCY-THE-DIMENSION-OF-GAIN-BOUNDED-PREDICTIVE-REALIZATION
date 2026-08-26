@@ -1,0 +1,8 @@
+SR_100,candidate_false_shortcut_rate,candidate_goal_metric_spearman,candidate_pairwise_rank_acc,false_shortcut_rate,goal_relative_spearman,graph_distance_spearman,latent_dim,model,pairwise_rank_acc,prediction_loss,regret,score_aliasing
+36,,,,,,,8,state8,,,,
+72,,,,,,,16,state16,,,,
+78,,,,,,,32,state32,,,,
+90,,,,,,,64,state64,,,,
+96,,,,,,,192,baseline192,,,,
+,,,,,,,302,state302,,,,
+,,,,,,,502,state502,,,,

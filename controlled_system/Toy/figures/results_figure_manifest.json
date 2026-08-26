@@ -1,0 +1,34 @@
+{
+  "inputs": {
+    "e1_results": "outputs/dimension_gain_e1_full/e1_full_results.csv",
+    "e1_summary": "outputs/dimension_gain_e1_full/e1_full_summary.csv",
+    "e2_summary": "existing E2 all-pair scaling summary"
+  },
+  "n8_oracle_error": {
+    "candidate_csv": "figures/results_n8_oracle_error_all_candidates.csv",
+    "gain_budget": 1.0,
+    "monotone_csv": "figures/results_n8_oracle_error_monotone.csv",
+    "num_candidate_rows": 225,
+    "num_monotone_rows": 21,
+    "solver": "scipy SLSQP numerical oracle preview"
+  },
+  "outputs": [
+    "figures/results_e1_frontier_grid.pdf",
+    "figures/results_e1_frontier_grid.png",
+    "figures/results_e1_frontier_grid.svg",
+    "figures/results_e1_frontier_grid_caption.txt",
+    "figures/results_e1_gain_heatmaps.pdf",
+    "figures/results_e1_gain_heatmaps.png",
+    "figures/results_e1_gain_heatmaps.svg",
+    "figures/results_e1_gain_heatmaps_caption.txt",
+    "figures/results_n8_gain_error_curves.pdf",
+    "figures/results_n8_gain_error_curves.png",
+    "figures/results_n8_gain_error_curves.svg",
+    "figures/results_n8_gain_error_curves_caption.txt",
+    "figures/results_e2_all_pair_scaling.pdf",
+    "figures/results_e2_all_pair_scaling.png",
+    "figures/results_e2_all_pair_scaling.svg",
+    "figures/results_e2_all_pair_scaling_caption.txt"
+  ],
+  "used_smoke_outputs": false
+}

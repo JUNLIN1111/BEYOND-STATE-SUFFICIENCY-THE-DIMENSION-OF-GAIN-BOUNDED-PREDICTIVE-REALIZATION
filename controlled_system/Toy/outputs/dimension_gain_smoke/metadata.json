@@ -1,0 +1,114 @@
+{
+  "arguments": {
+    "beta_boundaries": [
+      0.3,
+      0.6
+    ],
+    "beta_values": [
+      10.0,
+      30.0,
+      100.0
+    ],
+    "eps": 1e-12,
+    "exact_tolerance": 1e-09,
+    "experiment": "all",
+    "feasibility_tolerance": 0.001,
+    "grad_clip": 10.0,
+    "improvement_tol": 1e-09,
+    "lr": 0.02,
+    "output_dir": "outputs/dimension_gain_smoke",
+    "patience": 2500,
+    "quick": true,
+    "seeds": 1,
+    "steps": 3
+  },
+  "command_line": [
+    "dimension_gain_experiments.py",
+    "--experiment",
+    "all",
+    "--quick",
+    "--steps",
+    "3",
+    "--seeds",
+    "1",
+    "--output-dir",
+    "outputs/dimension_gain_smoke"
+  ],
+  "cpu_only": true,
+  "cpu_thread_count": 8,
+  "dtype": "torch.float64",
+  "matplotlib_version": "3.9.2",
+  "numpy_version": "1.26.4",
+  "pandas_version": "2.3.3",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "protocol": {
+    "e1_config": {
+      "beta_boundaries": [
+        0.3,
+        0.6
+      ],
+      "beta_values": [
+        10.0,
+        30.0,
+        100.0
+      ],
+      "clip_norm": 10.0,
+      "eps": 1e-12,
+      "exact_tolerance": 1e-09,
+      "improvement_tol": 1e-09,
+      "lr": 0.02,
+      "patience": 2500,
+      "seeds": 1,
+      "steps": 3
+    },
+    "e1_m_values": "1..n-1",
+    "e1_n_values": [
+      4,
+      6
+    ],
+    "e2_config": {
+      "beta_boundaries": [
+        0.3,
+        0.6
+      ],
+      "beta_values": [
+        10.0,
+        30.0,
+        100.0
+      ],
+      "clip_norm": 10.0,
+      "eps": 1e-12,
+      "exact_tolerance": 1e-09,
+      "improvement_tol": 1e-09,
+      "lr": 0.02,
+      "patience": 2500,
+      "seeds": 1,
+      "steps": 3
+    },
+    "e2_m_values": [
+      1,
+      2,
+      4
+    ],
+    "e2_n_values": [
+      8,
+      16
+    ],
+    "experiment": "all",
+    "feasibility_tolerance": 0.001,
+    "output_dir": "outputs/dimension_gain_smoke",
+    "quick": true
+  },
+  "python_version": "3.9.25 (main, Nov  3 2025, 22:33:05) \n[GCC 11.2.0]",
+  "pytorch_version": "2.8.0+cu128",
+  "random_seeds": {
+    "e1": [
+      0
+    ],
+    "e2": [
+      0
+    ]
+  },
+  "timestamp_utc": "2026-07-22T13:35:44.055161+00:00",
+  "torch_interop_thread_count": 8
+}

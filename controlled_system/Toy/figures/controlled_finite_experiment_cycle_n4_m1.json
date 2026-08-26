@@ -1,0 +1,49 @@
+{
+  "checkpoint_path": "outputs/dimension_gain_e1_full/embeddings/e1_full_Cycle_n4_m1_seed9.pt",
+  "diagnosis": "rounding of a value slightly larger than one",
+  "heatmap_display_label_with_two_decimals": "1.00",
+  "internal_system_id": "Cycle",
+  "m": 1,
+  "max_pairwise_distance": 446.8237415403241,
+  "mean": [
+    7.105427357601002e-15
+  ],
+  "min_pairwise_distance": 1.0,
+  "n": 4,
+  "saved_best_Z": [
+    [
+      -222.41187076963567
+    ],
+    [
+      223.4118707699866
+    ],
+    [
+      -223.4118707703375
+    ],
+    [
+      222.4118707699866
+    ]
+  ],
+  "selected_seed": 9,
+  "summary_best_available_upper_bound": 1.0022480814457853,
+  "system": "Cycle",
+  "unrounded_required_gain": 1.0022480814457853,
+  "witness": {
+    "action_index": 0,
+    "current_pair": [
+      0,
+      3
+    ],
+    "d_next": 445.82374153962223,
+    "d_now": 444.82374153962223,
+    "ratio": 1.0022480814457853,
+    "successor_pair_ordered": [
+      1,
+      0
+    ],
+    "successor_pair_unordered": [
+      0,
+      1
+    ]
+  }
+}

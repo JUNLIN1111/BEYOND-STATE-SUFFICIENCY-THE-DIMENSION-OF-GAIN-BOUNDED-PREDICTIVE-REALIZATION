@@ -1,0 +1,30 @@
+{
+  "inputs": [
+    "outputs/dimension_gain_e1_full/e1_full_results.csv",
+    "outputs/dimension_gain_e1_full/e1_full_summary.csv",
+    "outputs/dimension_gain_e1_full/e1_full_thresholds.csv",
+    "outputs/dimension_gain_e1_full/e1_full_metadata.json",
+    "outputs/e2_complete_transposition_scaling/e2_scaling_results.csv",
+    "outputs/e2_complete_transposition_scaling/e2_scaling_summary.csv",
+    "outputs/e2_complete_transposition_scaling/e2_scaling_metadata.json",
+    "figures/results_n8_oracle_error_all_candidates.csv",
+    "figures/results_n8_oracle_error_monotone.csv",
+    "figures/mechanism_prediction_error_table_monotone.csv"
+  ],
+  "outputs": [
+    "figures/controlled_finite_experiment_machine_table.csv",
+    "figures/controlled_finite_experiment_n8_values.csv",
+    "figures/controlled_finite_experiment_cycle_n4_m1.json",
+    "figures/controlled_finite_experiment_audit.md"
+  ],
+  "platform_now": "Linux-6.8.0-136-generic-x86_64-with-glibc2.35",
+  "python_version_now": "3.9.25 (main, Nov  3 2025, 22:33:05) \n[GCC 11.2.0]",
+  "row_counts": {
+    "e1_results": 772,
+    "e1_summary": 72,
+    "machine_table": 72,
+    "oracle_candidates": 225,
+    "oracle_monotone": 21
+  },
+  "used_smoke_outputs": false
+}

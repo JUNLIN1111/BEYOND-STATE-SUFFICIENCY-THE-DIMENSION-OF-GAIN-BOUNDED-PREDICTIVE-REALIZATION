@@ -1,0 +1,3039 @@
+{
+  "figure": "mechanism_8state_geometry_v1",
+  "n": 8,
+  "m_values": [
+    1,
+    2,
+    3
+  ],
+  "source": "completed E1 full-run outputs",
+  "cells": [
+    {
+      "system": "Cycle",
+      "n": 8,
+      "m": 1,
+      "embedding_source": "E1 full-run optimized embedding",
+      "embedding source": "E1 full-run optimized embedding",
+      "seed": 2,
+      "exact_hard_gain": 2.34594912688328,
+      "exact hard gain": 2.34594912688328,
+      "coordinates_after_normalization": [
+        [
+          8.86299226196535
+        ],
+        [
+          4.260121529426651
+        ],
+        [
+          -6.463872633289302
+        ],
+        [
+          -31.577835262674622
+        ],
+        [
+          27.159332285941478
+        ],
+        [
+          -24.98518613576932
+        ],
+        [
+          11.872223977199882
+        ],
+        [
+          10.872223977199882
+        ]
+      ],
+      "coordinates after normalization": [
+        [
+          8.86299226196535
+        ],
+        [
+          4.260121529426651
+        ],
+        [
+          -6.463872633289302
+        ],
+        [
+          -31.577835262674622
+        ],
+        [
+          27.159332285941478
+        ],
+        [
+          -24.98518613576932
+        ],
+        [
+          11.872223977199882
+        ],
+        [
+          10.872223977199882
+        ]
+      ],
+      "display_coordinates_used_in_figure": [
+        [
+          -3.5,
+          0.0
+        ],
+        [
+          -2.5,
+          0.0
+        ],
+        [
+          -1.5,
+          0.0
+        ],
+        [
+          -0.5,
+          0.0
+        ],
+        [
+          0.5,
+          0.0
+        ],
+        [
+          1.5,
+          0.0
+        ],
+        [
+          2.5,
+          0.0
+        ],
+        [
+          3.5,
+          0.0
+        ]
+      ],
+      "visualization_layout": "state-ordered equal-spacing schematic; gain recomputed from normalized E1 embedding",
+      "transition_edges_drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            7,
+            0
+          ],
+          "directed": true
+        }
+      ],
+      "transition edges drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            7,
+            0
+          ],
+          "directed": true
+        }
+      ],
+      "analytic_or_optimized": "optimized",
+      "whether analytic or optimized": "optimized",
+      "hard_gain_witness_not_plotted": {
+        "action_index": 0,
+        "current_pair": [
+          2,
+          5
+        ],
+        "successor_pair_ordered": [
+          3,
+          6
+        ],
+        "d_now": 18.52131350248002,
+        "d_next": 43.450059239874506,
+        "ratio": 2.34594912688328
+      }
+    },
+    {
+      "system": "Cycle",
+      "n": 8,
+      "m": 2,
+      "embedding_source": "E1 full-run analytic regular-octagon construction",
+      "embedding source": "E1 full-run analytic regular-octagon construction",
+      "seed": null,
+      "exact_hard_gain": 1.0000000000000004,
+      "exact hard gain": 1.0000000000000004,
+      "coordinates_after_normalization": [
+        [
+          1.3065629648763768,
+          -1.1766765925229282e-17
+        ],
+        [
+          0.9238795325112871,
+          0.9238795325112868
+        ],
+        [
+          1.95227153105446e-16,
+          1.3065629648763768
+        ],
+        [
+          -0.9238795325112868,
+          0.9238795325112871
+        ],
+        [
+          -1.3065629648763768,
+          1.482410493568038e-16
+        ],
+        [
+          -0.9238795325112872,
+          -0.9238795325112868
+        ],
+        [
+          -1.2478847745862008e-16,
+          -1.3065629648763768
+        ],
+        [
+          0.9238795325112867,
+          -0.9238795325112872
+        ]
+      ],
+      "coordinates after normalization": [
+        [
+          1.3065629648763768,
+          -1.1766765925229282e-17
+        ],
+        [
+          0.9238795325112871,
+          0.9238795325112868
+        ],
+        [
+          1.95227153105446e-16,
+          1.3065629648763768
+        ],
+        [
+          -0.9238795325112868,
+          0.9238795325112871
+        ],
+        [
+          -1.3065629648763768,
+          1.482410493568038e-16
+        ],
+        [
+          -0.9238795325112872,
+          -0.9238795325112868
+        ],
+        [
+          -1.2478847745862008e-16,
+          -1.3065629648763768
+        ],
+        [
+          0.9238795325112867,
+          -0.9238795325112872
+        ]
+      ],
+      "display_coordinates_used_in_figure": [
+        [
+          1.3065629648763768,
+          -1.1766765925229282e-17
+        ],
+        [
+          0.9238795325112871,
+          0.9238795325112868
+        ],
+        [
+          1.95227153105446e-16,
+          1.3065629648763768
+        ],
+        [
+          -0.9238795325112868,
+          0.9238795325112871
+        ],
+        [
+          -1.3065629648763768,
+          1.482410493568038e-16
+        ],
+        [
+          -0.9238795325112872,
+          -0.9238795325112868
+        ],
+        [
+          -1.2478847745862008e-16,
+          -1.3065629648763768
+        ],
+        [
+          0.9238795325112867,
+          -0.9238795325112872
+        ]
+      ],
+      "visualization_layout": "actual normalized E1 coordinates",
+      "transition_edges_drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            7,
+            0
+          ],
+          "directed": true
+        }
+      ],
+      "transition edges drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            7,
+            0
+          ],
+          "directed": true
+        }
+      ],
+      "analytic_or_optimized": "analytic",
+      "whether analytic or optimized": "analytic",
+      "hard_gain_witness_not_plotted": {
+        "action_index": 0,
+        "current_pair": [
+          4,
+          5
+        ],
+        "successor_pair_ordered": [
+          5,
+          6
+        ],
+        "d_now": 1.0,
+        "d_next": 1.0000000000000004,
+        "ratio": 1.0000000000000004
+      }
+    },
+    {
+      "system": "Cycle",
+      "n": 8,
+      "m": 3,
+      "embedding_source": "E1 full-run analytic regular-octagon construction",
+      "embedding source": "E1 full-run analytic regular-octagon construction",
+      "seed": null,
+      "exact_hard_gain": 1.0000000000000004,
+      "exact hard gain": 1.0000000000000004,
+      "coordinates_after_normalization": [
+        [
+          1.3065629648763768,
+          -1.1766765925229282e-17,
+          0.0
+        ],
+        [
+          0.9238795325112871,
+          0.9238795325112868,
+          0.0
+        ],
+        [
+          1.95227153105446e-16,
+          1.3065629648763768,
+          0.0
+        ],
+        [
+          -0.9238795325112868,
+          0.9238795325112871,
+          0.0
+        ],
+        [
+          -1.3065629648763768,
+          1.482410493568038e-16,
+          0.0
+        ],
+        [
+          -0.9238795325112872,
+          -0.9238795325112868,
+          0.0
+        ],
+        [
+          -1.2478847745862008e-16,
+          -1.3065629648763768,
+          0.0
+        ],
+        [
+          0.9238795325112867,
+          -0.9238795325112872,
+          0.0
+        ]
+      ],
+      "coordinates after normalization": [
+        [
+          1.3065629648763768,
+          -1.1766765925229282e-17,
+          0.0
+        ],
+        [
+          0.9238795325112871,
+          0.9238795325112868,
+          0.0
+        ],
+        [
+          1.95227153105446e-16,
+          1.3065629648763768,
+          0.0
+        ],
+        [
+          -0.9238795325112868,
+          0.9238795325112871,
+          0.0
+        ],
+        [
+          -1.3065629648763768,
+          1.482410493568038e-16,
+          0.0
+        ],
+        [
+          -0.9238795325112872,
+          -0.9238795325112868,
+          0.0
+        ],
+        [
+          -1.2478847745862008e-16,
+          -1.3065629648763768,
+          0.0
+        ],
+        [
+          0.9238795325112867,
+          -0.9238795325112872,
+          0.0
+        ]
+      ],
+      "display_coordinates_used_in_figure": [
+        [
+          1.3065629648763768,
+          -1.1766765925229282e-17,
+          0.0
+        ],
+        [
+          0.9238795325112871,
+          0.9238795325112868,
+          0.0
+        ],
+        [
+          1.95227153105446e-16,
+          1.3065629648763768,
+          0.0
+        ],
+        [
+          -0.9238795325112868,
+          0.9238795325112871,
+          0.0
+        ],
+        [
+          -1.3065629648763768,
+          1.482410493568038e-16,
+          0.0
+        ],
+        [
+          -0.9238795325112872,
+          -0.9238795325112868,
+          0.0
+        ],
+        [
+          -1.2478847745862008e-16,
+          -1.3065629648763768,
+          0.0
+        ],
+        [
+          0.9238795325112867,
+          -0.9238795325112872,
+          0.0
+        ]
+      ],
+      "visualization_layout": "actual normalized E1 coordinates",
+      "transition_edges_drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            7,
+            0
+          ],
+          "directed": true
+        }
+      ],
+      "transition edges drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": true
+        },
+        {
+          "edge": [
+            7,
+            0
+          ],
+          "directed": true
+        }
+      ],
+      "analytic_or_optimized": "analytic",
+      "whether analytic or optimized": "analytic",
+      "hard_gain_witness_not_plotted": {
+        "action_index": 0,
+        "current_pair": [
+          4,
+          5
+        ],
+        "successor_pair_ordered": [
+          5,
+          6
+        ],
+        "d_now": 1.0,
+        "d_next": 1.0000000000000004,
+        "ratio": 1.0000000000000004
+      }
+    },
+    {
+      "system": "Adjacent transpositions",
+      "n": 8,
+      "m": 1,
+      "embedding_source": "E1 full-run optimized embedding",
+      "embedding source": "E1 full-run optimized embedding",
+      "seed": 5,
+      "exact_hard_gain": 3.206573975685469,
+      "exact hard gain": 3.206573975685469,
+      "coordinates_after_normalization": [
+        [
+          0.56683753463122
+        ],
+        [
+          -2.343458579268392
+        ],
+        [
+          -0.4331624653687799
+        ],
+        [
+          3.7398660154648717
+        ],
+        [
+          2.64628667583738
+        ],
+        [
+          7.229278097175765
+        ],
+        [
+          -7.449191956191736
+        ],
+        [
+          -3.9564553222803296
+        ]
+      ],
+      "coordinates after normalization": [
+        [
+          0.56683753463122
+        ],
+        [
+          -2.343458579268392
+        ],
+        [
+          -0.4331624653687799
+        ],
+        [
+          3.7398660154648717
+        ],
+        [
+          2.64628667583738
+        ],
+        [
+          7.229278097175765
+        ],
+        [
+          -7.449191956191736
+        ],
+        [
+          -3.9564553222803296
+        ]
+      ],
+      "display_coordinates_used_in_figure": [
+        [
+          -3.5,
+          0.0
+        ],
+        [
+          -2.5,
+          0.0
+        ],
+        [
+          -1.5,
+          0.0
+        ],
+        [
+          -0.5,
+          0.0
+        ],
+        [
+          0.5,
+          0.0
+        ],
+        [
+          1.5,
+          0.0
+        ],
+        [
+          2.5,
+          0.0
+        ],
+        [
+          3.5,
+          0.0
+        ]
+      ],
+      "visualization_layout": "state-ordered equal-spacing schematic; gain recomputed from normalized E1 embedding",
+      "transition_edges_drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": false
+        }
+      ],
+      "transition edges drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": false
+        }
+      ],
+      "analytic_or_optimized": "optimized",
+      "whether analytic or optimized": "optimized",
+      "hard_gain_witness_not_plotted": {
+        "action_index": 5,
+        "current_pair": [
+          3,
+          5
+        ],
+        "successor_pair_ordered": [
+          3,
+          6
+        ],
+        "d_now": 3.4894120817108933,
+        "d_next": 11.189057971656608,
+        "ratio": 3.206573975685469
+      }
+    },
+    {
+      "system": "Adjacent transpositions",
+      "n": 8,
+      "m": 2,
+      "embedding_source": "E1 full-run optimized embedding",
+      "embedding source": "E1 full-run optimized embedding",
+      "seed": 9,
+      "exact_hard_gain": 1.560477598995624,
+      "exact hard gain": 1.560477598995624,
+      "coordinates_after_normalization": [
+        [
+          -0.793323153845069,
+          -2.4315628345353937
+        ],
+        [
+          -0.9746385654856943,
+          -1.4453243434998873
+        ],
+        [
+          -0.014272640338764575,
+          -1.0982078913608284
+        ],
+        [
+          -0.20489403114557025,
+          -0.10173801151090205
+        ],
+        [
+          0.7414213094644639,
+          0.2534029907749431
+        ],
+        [
+          0.5473616029677545,
+          1.2511317077092337
+        ],
+        [
+          1.483476573020702,
+          1.602825840220382
+        ],
+        [
+          -0.7851310946378225,
+          1.9694725422024526
+        ]
+      ],
+      "coordinates after normalization": [
+        [
+          -0.793323153845069,
+          -2.4315628345353937
+        ],
+        [
+          -0.9746385654856943,
+          -1.4453243434998873
+        ],
+        [
+          -0.014272640338764575,
+          -1.0982078913608284
+        ],
+        [
+          -0.20489403114557025,
+          -0.10173801151090205
+        ],
+        [
+          0.7414213094644639,
+          0.2534029907749431
+        ],
+        [
+          0.5473616029677545,
+          1.2511317077092337
+        ],
+        [
+          1.483476573020702,
+          1.602825840220382
+        ],
+        [
+          -0.7851310946378225,
+          1.9694725422024526
+        ]
+      ],
+      "display_coordinates_used_in_figure": [
+        [
+          -0.793323153845069,
+          -2.4315628345353937
+        ],
+        [
+          -0.9746385654856943,
+          -1.4453243434998873
+        ],
+        [
+          -0.014272640338764575,
+          -1.0982078913608284
+        ],
+        [
+          -0.20489403114557025,
+          -0.10173801151090205
+        ],
+        [
+          0.7414213094644639,
+          0.2534029907749431
+        ],
+        [
+          0.5473616029677545,
+          1.2511317077092337
+        ],
+        [
+          1.483476573020702,
+          1.602825840220382
+        ],
+        [
+          -0.7851310946378225,
+          1.9694725422024526
+        ]
+      ],
+      "visualization_layout": "actual normalized E1 coordinates",
+      "transition_edges_drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": false
+        }
+      ],
+      "transition edges drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": false
+        }
+      ],
+      "analytic_or_optimized": "optimized",
+      "whether analytic or optimized": "optimized",
+      "hard_gain_witness_not_plotted": {
+        "action_index": 2,
+        "current_pair": [
+          3,
+          5
+        ],
+        "successor_pair_ordered": [
+          2,
+          5
+        ],
+        "d_now": 1.5479486478039282,
+        "d_next": 2.4155391892935967,
+        "ratio": 1.560477598995624
+      }
+    },
+    {
+      "system": "Adjacent transpositions",
+      "n": 8,
+      "m": 3,
+      "embedding_source": "E1 full-run optimized embedding",
+      "embedding source": "E1 full-run optimized embedding",
+      "seed": 0,
+      "exact_hard_gain": 1.3142891822301217,
+      "exact hard gain": 1.3142891822301217,
+      "coordinates_after_normalization": [
+        [
+          0.2137643294768183,
+          -1.7466584442576885,
+          -2.1210005958534417
+        ],
+        [
+          1.5668655749378408,
+          -1.6901911882647995,
+          -0.6187143278728253
+        ],
+        [
+          -0.9073734584943742,
+          -1.7858184914790154,
+          0.2509025096553692
+        ],
+        [
+          1.1183999457091824,
+          1.2442456979716767,
+          -0.8264722584198219
+        ],
+        [
+          -1.1757351346375522,
+          1.0009772212987544,
+          -0.6627802344411433
+        ],
+        [
+          0.15705257723606295,
+          0.3084864172557137,
+          1.8209793118940651
+        ],
+        [
+          -0.6437741353515769,
+          1.7189339072055672,
+          1.3568510044644562
+        ],
+        [
+          -0.3291996988764011,
+          0.9500248802697915,
+          0.8002345905733417
+        ]
+      ],
+      "coordinates after normalization": [
+        [
+          0.2137643294768183,
+          -1.7466584442576885,
+          -2.1210005958534417
+        ],
+        [
+          1.5668655749378408,
+          -1.6901911882647995,
+          -0.6187143278728253
+        ],
+        [
+          -0.9073734584943742,
+          -1.7858184914790154,
+          0.2509025096553692
+        ],
+        [
+          1.1183999457091824,
+          1.2442456979716767,
+          -0.8264722584198219
+        ],
+        [
+          -1.1757351346375522,
+          1.0009772212987544,
+          -0.6627802344411433
+        ],
+        [
+          0.15705257723606295,
+          0.3084864172557137,
+          1.8209793118940651
+        ],
+        [
+          -0.6437741353515769,
+          1.7189339072055672,
+          1.3568510044644562
+        ],
+        [
+          -0.3291996988764011,
+          0.9500248802697915,
+          0.8002345905733417
+        ]
+      ],
+      "display_coordinates_used_in_figure": [
+        [
+          0.2137643294768183,
+          -1.7466584442576885,
+          -2.1210005958534417
+        ],
+        [
+          1.5668655749378408,
+          -1.6901911882647995,
+          -0.6187143278728253
+        ],
+        [
+          -0.9073734584943742,
+          -1.7858184914790154,
+          0.2509025096553692
+        ],
+        [
+          1.1183999457091824,
+          1.2442456979716767,
+          -0.8264722584198219
+        ],
+        [
+          -1.1757351346375522,
+          1.0009772212987544,
+          -0.6627802344411433
+        ],
+        [
+          0.15705257723606295,
+          0.3084864172557137,
+          1.8209793118940651
+        ],
+        [
+          -0.6437741353515769,
+          1.7189339072055672,
+          1.3568510044644562
+        ],
+        [
+          -0.3291996988764011,
+          0.9500248802697915,
+          0.8002345905733417
+        ]
+      ],
+      "visualization_layout": "actual normalized E1 coordinates",
+      "transition_edges_drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": false
+        }
+      ],
+      "transition edges drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": false
+        }
+      ],
+      "analytic_or_optimized": "optimized",
+      "whether analytic or optimized": "optimized",
+      "hard_gain_witness_not_plotted": {
+        "action_index": 5,
+        "current_pair": [
+          4,
+          6
+        ],
+        "successor_pair_ordered": [
+          4,
+          5
+        ],
+        "d_now": 2.2084733751537495,
+        "d_next": 2.9025726662078184,
+        "ratio": 1.3142891822301217
+      }
+    },
+    {
+      "system": "Complete transpositions",
+      "n": 8,
+      "m": 1,
+      "embedding_source": "E1 full-run optimized embedding",
+      "embedding source": "E1 full-run optimized embedding",
+      "seed": 2,
+      "exact_hard_gain": 5.535852320568658,
+      "exact hard gain": 5.535852320568658,
+      "coordinates_after_normalization": [
+        [
+          0.4999999999962524
+        ],
+        [
+          -0.5000000000037477
+        ],
+        [
+          -1.7108736645622877
+        ],
+        [
+          -4.9923441210918575
+        ],
+        [
+          4.99234412116893
+        ],
+        [
+          -3.188703477507071
+        ],
+        [
+          3.188703477492365
+        ],
+        [
+          1.7108736645074165
+        ]
+      ],
+      "coordinates after normalization": [
+        [
+          0.4999999999962524
+        ],
+        [
+          -0.5000000000037477
+        ],
+        [
+          -1.7108736645622877
+        ],
+        [
+          -4.9923441210918575
+        ],
+        [
+          4.99234412116893
+        ],
+        [
+          -3.188703477507071
+        ],
+        [
+          3.188703477492365
+        ],
+        [
+          1.7108736645074165
+        ]
+      ],
+      "display_coordinates_used_in_figure": [
+        [
+          -3.5,
+          0.0
+        ],
+        [
+          -2.5,
+          0.0
+        ],
+        [
+          -1.5,
+          0.0
+        ],
+        [
+          -0.5,
+          0.0
+        ],
+        [
+          0.5,
+          0.0
+        ],
+        [
+          1.5,
+          0.0
+        ],
+        [
+          2.5,
+          0.0
+        ],
+        [
+          3.5,
+          0.0
+        ]
+      ],
+      "visualization_layout": "state-ordered equal-spacing schematic; gain recomputed from normalized E1 embedding",
+      "transition_edges_drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": false
+        }
+      ],
+      "transition edges drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": false
+        }
+      ],
+      "analytic_or_optimized": "optimized",
+      "whether analytic or optimized": "optimized",
+      "hard_gain_witness_not_plotted": {
+        "action_index": 22,
+        "current_pair": [
+          3,
+          5
+        ],
+        "successor_pair_ordered": [
+          3,
+          4
+        ],
+        "d_now": 1.8036406435847865,
+        "d_next": 9.984688242260788,
+        "ratio": 5.535852320568658
+      }
+    },
+    {
+      "system": "Complete transpositions",
+      "n": 8,
+      "m": 2,
+      "embedding_source": "E1 full-run optimized embedding",
+      "embedding source": "E1 full-run optimized embedding",
+      "seed": 5,
+      "exact_hard_gain": 2.3247703725389597,
+      "exact hard gain": 2.3247703725389597,
+      "coordinates_after_normalization": [
+        [
+          -0.05135807442645273,
+          -0.8847889754213627
+        ],
+        [
+          -1.4267874392156448,
+          -1.0871748052648755
+        ],
+        [
+          0.013065341140715996,
+          0.11313367865893223
+        ],
+        [
+          1.292526909564903,
+          -1.2376161411282367
+        ],
+        [
+          -1.5283956432095374,
+          0.3097993066275169
+        ],
+        [
+          1.5542635387755726,
+          0.13710963475453194
+        ],
+        [
+          -0.6207464492232689,
+          1.3648745496111727
+        ],
+        [
+          0.7674318165937124,
+          1.284662752162321
+        ]
+      ],
+      "coordinates after normalization": [
+        [
+          -0.05135807442645273,
+          -0.8847889754213627
+        ],
+        [
+          -1.4267874392156448,
+          -1.0871748052648755
+        ],
+        [
+          0.013065341140715996,
+          0.11313367865893223
+        ],
+        [
+          1.292526909564903,
+          -1.2376161411282367
+        ],
+        [
+          -1.5283956432095374,
+          0.3097993066275169
+        ],
+        [
+          1.5542635387755726,
+          0.13710963475453194
+        ],
+        [
+          -0.6207464492232689,
+          1.3648745496111727
+        ],
+        [
+          0.7674318165937124,
+          1.284662752162321
+        ]
+      ],
+      "display_coordinates_used_in_figure": [
+        [
+          -0.05135807442645273,
+          -0.8847889754213627
+        ],
+        [
+          -1.4267874392156448,
+          -1.0871748052648755
+        ],
+        [
+          0.013065341140715996,
+          0.11313367865893223
+        ],
+        [
+          1.292526909564903,
+          -1.2376161411282367
+        ],
+        [
+          -1.5283956432095374,
+          0.3097993066275169
+        ],
+        [
+          1.5542635387755726,
+          0.13710963475453194
+        ],
+        [
+          -0.6207464492232689,
+          1.3648745496111727
+        ],
+        [
+          0.7674318165937124,
+          1.284662752162321
+        ]
+      ],
+      "visualization_layout": "actual normalized E1 coordinates",
+      "transition_edges_drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": false
+        }
+      ],
+      "transition edges drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": false
+        }
+      ],
+      "analytic_or_optimized": "optimized",
+      "whether analytic or optimized": "optimized",
+      "hard_gain_witness_not_plotted": {
+        "action_index": 5,
+        "current_pair": [
+          0,
+          3
+        ],
+        "successor_pair_ordered": [
+          6,
+          3
+        ],
+        "d_now": 1.3894293285583807,
+        "d_next": 3.2301041377692234,
+        "ratio": 2.3247703725389597
+      }
+    },
+    {
+      "system": "Complete transpositions",
+      "n": 8,
+      "m": 3,
+      "embedding_source": "E1 full-run optimized embedding",
+      "embedding source": "E1 full-run optimized embedding",
+      "seed": 7,
+      "exact_hard_gain": 1.5559670516024702,
+      "exact hard gain": 1.5559670516024702,
+      "coordinates_after_normalization": [
+        [
+          -0.4938827609147314,
+          0.027408564596188727,
+          0.6586427409488096
+        ],
+        [
+          0.2160959379880618,
+          0.6873046932269506,
+          0.39924488135005576
+        ],
+        [
+          0.34140294846424407,
+          0.48457345959252535,
+          -0.5719390353534726
+        ],
+        [
+          -0.22633987895716404,
+          -0.7806173841465156,
+          0.13374763473441215
+        ],
+        [
+          -0.5842147692024529,
+          0.5487292531382151,
+          -0.18992361948303435
+        ],
+        [
+          -0.31667188730765283,
+          -0.25929669561053276,
+          -0.7148187256672236
+        ],
+        [
+          0.5944587101765799,
+          -0.45541656224519406,
+          -0.34306889662830276
+        ],
+        [
+          0.4691516997531154,
+          -0.252685328551637,
+          0.6281150200987557
+        ]
+      ],
+      "coordinates after normalization": [
+        [
+          -0.4938827609147314,
+          0.027408564596188727,
+          0.6586427409488096
+        ],
+        [
+          0.2160959379880618,
+          0.6873046932269506,
+          0.39924488135005576
+        ],
+        [
+          0.34140294846424407,
+          0.48457345959252535,
+          -0.5719390353534726
+        ],
+        [
+          -0.22633987895716404,
+          -0.7806173841465156,
+          0.13374763473441215
+        ],
+        [
+          -0.5842147692024529,
+          0.5487292531382151,
+          -0.18992361948303435
+        ],
+        [
+          -0.31667188730765283,
+          -0.25929669561053276,
+          -0.7148187256672236
+        ],
+        [
+          0.5944587101765799,
+          -0.45541656224519406,
+          -0.34306889662830276
+        ],
+        [
+          0.4691516997531154,
+          -0.252685328551637,
+          0.6281150200987557
+        ]
+      ],
+      "display_coordinates_used_in_figure": [
+        [
+          -0.4938827609147314,
+          0.027408564596188727,
+          0.6586427409488096
+        ],
+        [
+          0.2160959379880618,
+          0.6873046932269506,
+          0.39924488135005576
+        ],
+        [
+          0.34140294846424407,
+          0.48457345959252535,
+          -0.5719390353534726
+        ],
+        [
+          -0.22633987895716404,
+          -0.7806173841465156,
+          0.13374763473441215
+        ],
+        [
+          -0.5842147692024529,
+          0.5487292531382151,
+          -0.18992361948303435
+        ],
+        [
+          -0.31667188730765283,
+          -0.25929669561053276,
+          -0.7148187256672236
+        ],
+        [
+          0.5944587101765799,
+          -0.45541656224519406,
+          -0.34306889662830276
+        ],
+        [
+          0.4691516997531154,
+          -0.252685328551637,
+          0.6281150200987557
+        ]
+      ],
+      "visualization_layout": "actual normalized E1 coordinates",
+      "transition_edges_drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": false
+        }
+      ],
+      "transition edges drawn": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            0,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            1,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            3
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            2,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            4
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            3,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            5
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            4,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            6
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            5,
+            7
+          ],
+          "directed": false
+        },
+        {
+          "edge": [
+            6,
+            7
+          ],
+          "directed": false
+        }
+      ],
+      "analytic_or_optimized": "optimized",
+      "whether analytic or optimized": "optimized",
+      "hard_gain_witness_not_plotted": {
+        "action_index": 24,
+        "current_pair": [
+          4,
+          5
+        ],
+        "successor_pair_ordered": [
+          7,
+          5
+        ],
+        "d_now": 1.0,
+        "d_next": 1.5559670516024702,
+        "ratio": 1.5559670516024702
+      }
+    }
+  ]
+}

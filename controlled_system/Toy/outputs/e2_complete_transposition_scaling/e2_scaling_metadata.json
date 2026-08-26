@@ -1,0 +1,33 @@
+{
+  "cpu_only": true,
+  "dtype": "torch.float64",
+  "experiment": "E2 complete-transposition scaling",
+  "m_values": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "matplotlib_version": "3.9.2",
+  "n_values": [
+    8,
+    12,
+    16,
+    24,
+    32,
+    64,
+    128
+  ],
+  "numpy_version": "1.26.4",
+  "optimized_result_interpretation": "empirical upper bounds on L_m^*",
+  "pandas_version": "2.3.3",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "python_version": "3.9.25 (main, Nov  3 2025, 22:33:05) \n[GCC 11.2.0]",
+  "pytorch_version": "2.8.0+cu128",
+  "reported_values": "exact hard gain",
+  "run_large_optimization": false,
+  "seeds": 5,
+  "steps": 15000,
+  "timestamp_utc": "2026-07-25T19:45:06.686389+00:00",
+  "used_smoke_outputs": false
+}

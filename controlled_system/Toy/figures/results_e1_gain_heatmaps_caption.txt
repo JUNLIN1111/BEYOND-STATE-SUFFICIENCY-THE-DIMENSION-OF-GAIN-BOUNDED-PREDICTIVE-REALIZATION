@@ -1,0 +1,1 @@
+Compact heatmap of E1 best available upper bounds across all completed n and m configurations. Blank cells are dimensions outside m<n.

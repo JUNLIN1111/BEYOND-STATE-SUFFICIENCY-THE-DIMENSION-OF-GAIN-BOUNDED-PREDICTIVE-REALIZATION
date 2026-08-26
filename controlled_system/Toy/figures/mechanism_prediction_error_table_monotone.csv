@@ -1,0 +1,10 @@
+system,n,m,selected_source_m,padded_from_lower_dimension,selected_seed,selected_exact_hard_required_gain,gain_budget_L,selected_oracle_mse_at_L1,raw_m_specific_seed,raw_m_specific_exact_hard_required_gain,raw_m_specific_oracle_mse_at_L1,oracle_solver,oracle_num_actions,oracle_max_constraint_violation,drawn_action
+Cycle,8,1,1,False,2,2.34594912688328,1,109.444450375186,2,2.34594912688328,109.444450375186,scipy SLSQP,1,2.48689957516035e-14,cyclic action
+Cycle,8,2,2,False,,1,1,0,,1,0,scipy SLSQP,1,0,cyclic action
+Cycle,8,3,2,True,,1,1,0,6,1.00000000074923,3.0659516636783e-19,scipy SLSQP,1,0,cyclic action
+Adjacent pair actions,8,1,1,False,5,3.20657397568547,1,2.3215366285067,5,3.20657397568547,2.3215366285067,scipy SLSQP,7,2.54019028034236e-13,action on states 5 and 6
+Adjacent pair actions,8,2,2,False,9,1.56047759899562,1,0.0937518130936806,9,1.56047759899562,0.0937518130936806,scipy SLSQP,7,2.10400585842763e-11,action on states 2 and 3
+Adjacent pair actions,8,3,2,True,9,1.56047759899562,1,0.0937518130936806,0,1.31428918223012,0.101700788787001,scipy SLSQP,7,2.10400585842763e-11,action on states 2 and 3
+All-pair actions,8,1,1,False,2,5.53585232056866,1,2.21365670412876,2,5.53585232056866,2.21365670412876,scipy SLSQP,28,1.05848663167762e-12,action on states 4 and 5
+All-pair actions,8,2,2,False,5,2.32477037253896,1,0.26876043324669,5,2.32477037253896,0.26876043324669,scipy SLSQP,28,1.22875043473414e-11,action on states 0 and 6
+All-pair actions,8,3,3,False,7,1.55596705160247,1,0.0447164865486947,7,1.55596705160247,0.0447164865486947,scipy SLSQP,28,1.53881352105145e-11,action on states 4 and 7

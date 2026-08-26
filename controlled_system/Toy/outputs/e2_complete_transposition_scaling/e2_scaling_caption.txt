@@ -1,0 +1,6 @@
+Complete transpositions witness worst-case dimension--gain scaling. For
+fixed latent dimension m, the required gain grows on the order of n^{1/m}.
+Dashed curves show the analytic lower bound, solid curves show explicit
+grid constructions, and markers show best optimized geometries when
+optimization was run. Optimized points are empirical upper bounds rather
+than certified optima.

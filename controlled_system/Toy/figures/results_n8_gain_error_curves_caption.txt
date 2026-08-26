@@ -1,0 +1,1 @@
+n=8 gain and prediction-error profiles. Required-gain curves use the best available E1 upper bound at each dimension. Prediction-error curves use the best L=1 oracle MSE among completed source dimensions that can be zero-padded into the target dimension; square markers indicate reused lower-dimensional embeddings.

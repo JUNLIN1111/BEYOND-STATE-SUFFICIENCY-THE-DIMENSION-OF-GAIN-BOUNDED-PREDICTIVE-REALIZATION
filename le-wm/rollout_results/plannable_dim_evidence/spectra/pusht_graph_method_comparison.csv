@@ -1,0 +1,9 @@
+construction_semantics,graph_method,similarity_directly_creates_transition_edges,status
+observed adjacent transitions only; no cross-trajectory stitching,temporal_only,no,missing
+temporal edges plus kNN state-similarity edges,temporal_plus_knn_k5,yes,missing
+temporal edges plus kNN state-similarity edges,temporal_plus_knn_k10,yes,missing
+temporal edges plus kNN state-similarity edges,temporal_plus_knn_k20,yes,missing
+Isomap-style state-similarity graph; appendix/sensitivity baseline,knn_only_k10,yes,missing
+cluster states by k-means; quotient edges induced only by temporal transitions,kmeans_quotient,no,missing
+cluster states by radius cover; quotient edges induced only by temporal transitions,fixed_radius_quotient,no,missing
+cluster states by farthest-point centers; quotient edges induced only by temporal transitions,kcenter_quotient,no,missing

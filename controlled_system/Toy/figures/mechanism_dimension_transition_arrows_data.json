@@ -1,0 +1,1431 @@
+{
+  "all_candidates_without_embeddings": [
+    {
+      "display_system": "Cycle",
+      "drawn_action_index": 0,
+      "drawn_action_label": "cyclic action",
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 2.34594912688328,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 58.7371675486161,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 2.4868995751603507e-14,
+      "oracle_mse_at_budget": 109.4444503751859,
+      "oracle_num_actions": 1,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "seed": 2,
+      "selection_type": "optimized",
+      "source_csv_gain": 2.34594912688328,
+      "source_m": 1,
+      "target_m": 1
+    },
+    {
+      "display_system": "Cycle",
+      "drawn_action_index": 0,
+      "drawn_action_label": "cyclic action",
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 2.34594912688328,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 58.7371675486161,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 4.440892098500626e-16,
+      "oracle_mse_at_budget": 109.44445037518781,
+      "oracle_num_actions": 1,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": true,
+      "seed": 2,
+      "selection_type": "optimized",
+      "source_csv_gain": 2.34594912688328,
+      "source_m": 1,
+      "target_m": 2
+    },
+    {
+      "display_system": "Cycle",
+      "drawn_action_index": 0,
+      "drawn_action_label": "cyclic action",
+      "embedding_source": "analytic regular octagon from full-run outputs",
+      "exact_hard_gain": 1.0000000000000004,
+      "gain_budget": 1.0,
+      "init_kind": "regular_polygon",
+      "max_distance": 2.6131259297527536,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 0.0,
+      "oracle_mse_at_budget": 0.0,
+      "oracle_num_actions": 1,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "seed": null,
+      "selection_type": "analytic_construction",
+      "source_csv_gain": 1.0000000000000004,
+      "source_m": 2,
+      "target_m": 2
+    },
+    {
+      "display_system": "Cycle",
+      "drawn_action_index": 0,
+      "drawn_action_label": "cyclic action",
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 2.34594912688328,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 58.7371675486161,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 2.220446049250313e-16,
+      "oracle_mse_at_budget": 109.44445037518793,
+      "oracle_num_actions": 1,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": true,
+      "seed": 2,
+      "selection_type": "optimized",
+      "source_csv_gain": 2.34594912688328,
+      "source_m": 1,
+      "target_m": 3
+    },
+    {
+      "display_system": "Cycle",
+      "drawn_action_index": 0,
+      "drawn_action_label": "cyclic action",
+      "embedding_source": "analytic regular octagon from full-run outputs",
+      "exact_hard_gain": 1.0000000000000004,
+      "gain_budget": 1.0,
+      "init_kind": "regular_polygon",
+      "max_distance": 2.6131259297527536,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 0.0,
+      "oracle_mse_at_budget": 0.0,
+      "oracle_num_actions": 1,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": true,
+      "seed": null,
+      "selection_type": "analytic_construction",
+      "source_csv_gain": 1.0000000000000004,
+      "source_m": 2,
+      "target_m": 3
+    },
+    {
+      "display_system": "Cycle",
+      "drawn_action_index": 0,
+      "drawn_action_label": "cyclic action",
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 1.0000000007492253,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 1.8459148329153205,
+      "min_distance": 1.0000000000000002,
+      "n": 8,
+      "oracle_max_constraint_violation": 2.220446049250313e-16,
+      "oracle_mse_at_budget": 3.065951663678304e-19,
+      "oracle_num_actions": 1,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "seed": 6,
+      "selection_type": "optimized",
+      "source_csv_gain": 1.0000000007492251,
+      "source_m": 3,
+      "target_m": 3
+    },
+    {
+      "display_system": "Adjacent pair actions",
+      "drawn_action_index": 5,
+      "drawn_action_label": "action on states 5 and 6",
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 3.206573975685469,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 14.678470053367501,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 2.540190280342358e-13,
+      "oracle_mse_at_budget": 2.321536628506705,
+      "oracle_num_actions": 7,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "seed": 5,
+      "selection_type": "optimized",
+      "source_csv_gain": 3.206573975685469,
+      "source_m": 1,
+      "target_m": 1
+    },
+    {
+      "display_system": "Adjacent pair actions",
+      "drawn_action_index": 5,
+      "drawn_action_label": "action on states 5 and 6",
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 3.206573975685469,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 14.678470053367501,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 2.537969834293108e-13,
+      "oracle_mse_at_budget": 2.321536628506705,
+      "oracle_num_actions": 7,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": true,
+      "seed": 5,
+      "selection_type": "optimized",
+      "source_csv_gain": 3.206573975685469,
+      "source_m": 1,
+      "target_m": 2
+    },
+    {
+      "display_system": "Adjacent pair actions",
+      "drawn_action_index": 2,
+      "drawn_action_label": "action on states 2 and 3",
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 1.560477598995624,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 4.63250569079561,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 2.1040058584276267e-11,
+      "oracle_mse_at_budget": 0.09375181309368065,
+      "oracle_num_actions": 7,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "seed": 9,
+      "selection_type": "optimized",
+      "source_csv_gain": 1.560477598995624,
+      "source_m": 2,
+      "target_m": 2
+    },
+    {
+      "display_system": "Adjacent pair actions",
+      "drawn_action_index": 5,
+      "drawn_action_label": "action on states 5 and 6",
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 3.206573975685469,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 14.678470053367501,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 2.540190280342358e-13,
+      "oracle_mse_at_budget": 2.3215366285067054,
+      "oracle_num_actions": 7,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": true,
+      "seed": 5,
+      "selection_type": "optimized",
+      "source_csv_gain": 3.206573975685469,
+      "source_m": 1,
+      "target_m": 3
+    },
+    {
+      "display_system": "Adjacent pair actions",
+      "drawn_action_index": 2,
+      "drawn_action_label": "action on states 2 and 3",
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 1.560477598995624,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 4.63250569079561,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 2.1040058584276267e-11,
+      "oracle_mse_at_budget": 0.09375181309368064,
+      "oracle_num_actions": 7,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": true,
+      "seed": 9,
+      "selection_type": "optimized",
+      "source_csv_gain": 1.560477598995624,
+      "source_m": 2,
+      "target_m": 3
+    },
+    {
+      "display_system": "Adjacent pair actions",
+      "drawn_action_index": 5,
+      "drawn_action_label": "action on states 5 and 6",
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 1.3142891822301217,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 4.9840901194716185,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 3.72168962314845e-12,
+      "oracle_mse_at_budget": 0.10170078878700119,
+      "oracle_num_actions": 7,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "seed": 0,
+      "selection_type": "optimized",
+      "source_csv_gain": 1.314289182230122,
+      "source_m": 3,
+      "target_m": 3
+    },
+    {
+      "display_system": "All-pair actions",
+      "drawn_action_index": 22,
+      "drawn_action_label": "action on states 4 and 5",
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 5.535852320568658,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 9.984688242260788,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 1.0584866316776242e-12,
+      "oracle_mse_at_budget": 2.213656704128758,
+      "oracle_num_actions": 28,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "seed": 2,
+      "selection_type": "optimized",
+      "source_csv_gain": 5.535852320568658,
+      "source_m": 1,
+      "target_m": 1
+    },
+    {
+      "display_system": "All-pair actions",
+      "drawn_action_index": 22,
+      "drawn_action_label": "action on states 4 and 5",
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 5.535852320568658,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 9.984688242260788,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 1.0587086762825493e-12,
+      "oracle_mse_at_budget": 2.213656704128758,
+      "oracle_num_actions": 28,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": true,
+      "seed": 2,
+      "selection_type": "optimized",
+      "source_csv_gain": 5.535852320568658,
+      "source_m": 1,
+      "target_m": 2
+    },
+    {
+      "display_system": "All-pair actions",
+      "drawn_action_index": 5,
+      "drawn_action_label": "action on states 0 and 6",
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 2.3247703725389597,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 3.2311316193226762,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 1.2287504347341383e-11,
+      "oracle_mse_at_budget": 0.2687604332466903,
+      "oracle_num_actions": 28,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "seed": 5,
+      "selection_type": "optimized",
+      "source_csv_gain": 2.32477037253896,
+      "source_m": 2,
+      "target_m": 2
+    },
+    {
+      "display_system": "All-pair actions",
+      "drawn_action_index": 22,
+      "drawn_action_label": "action on states 4 and 5",
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 5.535852320568658,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 9.984688242260788,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 1.0582645870726992e-12,
+      "oracle_mse_at_budget": 2.213656704128758,
+      "oracle_num_actions": 28,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": true,
+      "seed": 2,
+      "selection_type": "optimized",
+      "source_csv_gain": 5.535852320568658,
+      "source_m": 1,
+      "target_m": 3
+    },
+    {
+      "display_system": "All-pair actions",
+      "drawn_action_index": 5,
+      "drawn_action_label": "action on states 0 and 6",
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 2.3247703725389597,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 3.2311316193226762,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 1.2287504347341383e-11,
+      "oracle_mse_at_budget": 0.26876043324669024,
+      "oracle_num_actions": 28,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": true,
+      "seed": 5,
+      "selection_type": "optimized",
+      "source_csv_gain": 2.32477037253896,
+      "source_m": 2,
+      "target_m": 3
+    },
+    {
+      "display_system": "All-pair actions",
+      "drawn_action_index": 24,
+      "drawn_action_label": "action on states 4 and 7",
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 1.5559670516024697,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 1.5559670516039308,
+      "min_distance": 1.0000000000000002,
+      "n": 8,
+      "oracle_max_constraint_violation": 1.538813521051452e-11,
+      "oracle_mse_at_budget": 0.0447164865486947,
+      "oracle_num_actions": 28,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "seed": 7,
+      "selection_type": "optimized",
+      "source_csv_gain": 1.5559670516024704,
+      "source_m": 3,
+      "target_m": 3
+    }
+  ],
+  "caption": "Dimension-wise transition-arrow mechanism. Columns show target latent\ndimensions m=1,2,3 for the same eight states. For each target dimension,\ncompleted full-run embeddings from lower dimensions are also allowed by\npadding unused coordinates with zeros, so the plotted profile respects the\nnested feasible sets. Colored arrows show one true transition action in\nthe selected latent geometry. The first column in each row summarizes the\ntransition family: one cyclic action, one action for each neighboring pair,\nor one action for every unordered pair. Reported error is the finite-state\nnumerical oracle MSE at gain budget L=1. When a higher-dimensional optimizer\nfinds a worse predictor-error geometry, the figure uses the lower-dimensional\ngeometry with the extra coordinate set to zero.",
+  "gain_budget": 1.0,
+  "monotone_error_table": [
+    {
+      "drawn_action": "cyclic action",
+      "gain_budget_L": 1.0,
+      "m": 1,
+      "n": 8,
+      "oracle_max_constraint_violation": 2.4868995751603507e-14,
+      "oracle_num_actions": 1,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "raw_m_specific_exact_hard_required_gain": 2.34594912688328,
+      "raw_m_specific_oracle_mse_at_L1": 109.4444503751859,
+      "raw_m_specific_seed": 2,
+      "selected_exact_hard_required_gain": 2.34594912688328,
+      "selected_oracle_mse_at_L1": 109.4444503751859,
+      "selected_seed": 2,
+      "selected_source_m": 1,
+      "system": "Cycle"
+    },
+    {
+      "drawn_action": "cyclic action",
+      "gain_budget_L": 1.0,
+      "m": 2,
+      "n": 8,
+      "oracle_max_constraint_violation": 0.0,
+      "oracle_num_actions": 1,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "raw_m_specific_exact_hard_required_gain": 1.0000000000000004,
+      "raw_m_specific_oracle_mse_at_L1": 0.0,
+      "raw_m_specific_seed": "",
+      "selected_exact_hard_required_gain": 1.0000000000000004,
+      "selected_oracle_mse_at_L1": 0.0,
+      "selected_seed": "",
+      "selected_source_m": 2,
+      "system": "Cycle"
+    },
+    {
+      "drawn_action": "cyclic action",
+      "gain_budget_L": 1.0,
+      "m": 3,
+      "n": 8,
+      "oracle_max_constraint_violation": 0.0,
+      "oracle_num_actions": 1,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": true,
+      "raw_m_specific_exact_hard_required_gain": 1.0000000007492253,
+      "raw_m_specific_oracle_mse_at_L1": 3.065951663678304e-19,
+      "raw_m_specific_seed": 6,
+      "selected_exact_hard_required_gain": 1.0000000000000004,
+      "selected_oracle_mse_at_L1": 0.0,
+      "selected_seed": "",
+      "selected_source_m": 2,
+      "system": "Cycle"
+    },
+    {
+      "drawn_action": "action on states 5 and 6",
+      "gain_budget_L": 1.0,
+      "m": 1,
+      "n": 8,
+      "oracle_max_constraint_violation": 2.540190280342358e-13,
+      "oracle_num_actions": 7,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "raw_m_specific_exact_hard_required_gain": 3.206573975685469,
+      "raw_m_specific_oracle_mse_at_L1": 2.321536628506705,
+      "raw_m_specific_seed": 5,
+      "selected_exact_hard_required_gain": 3.206573975685469,
+      "selected_oracle_mse_at_L1": 2.321536628506705,
+      "selected_seed": 5,
+      "selected_source_m": 1,
+      "system": "Adjacent pair actions"
+    },
+    {
+      "drawn_action": "action on states 2 and 3",
+      "gain_budget_L": 1.0,
+      "m": 2,
+      "n": 8,
+      "oracle_max_constraint_violation": 2.1040058584276267e-11,
+      "oracle_num_actions": 7,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "raw_m_specific_exact_hard_required_gain": 1.560477598995624,
+      "raw_m_specific_oracle_mse_at_L1": 0.09375181309368065,
+      "raw_m_specific_seed": 9,
+      "selected_exact_hard_required_gain": 1.560477598995624,
+      "selected_oracle_mse_at_L1": 0.09375181309368065,
+      "selected_seed": 9,
+      "selected_source_m": 2,
+      "system": "Adjacent pair actions"
+    },
+    {
+      "drawn_action": "action on states 2 and 3",
+      "gain_budget_L": 1.0,
+      "m": 3,
+      "n": 8,
+      "oracle_max_constraint_violation": 2.1040058584276267e-11,
+      "oracle_num_actions": 7,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": true,
+      "raw_m_specific_exact_hard_required_gain": 1.3142891822301217,
+      "raw_m_specific_oracle_mse_at_L1": 0.10170078878700119,
+      "raw_m_specific_seed": 0,
+      "selected_exact_hard_required_gain": 1.560477598995624,
+      "selected_oracle_mse_at_L1": 0.09375181309368064,
+      "selected_seed": 9,
+      "selected_source_m": 2,
+      "system": "Adjacent pair actions"
+    },
+    {
+      "drawn_action": "action on states 4 and 5",
+      "gain_budget_L": 1.0,
+      "m": 1,
+      "n": 8,
+      "oracle_max_constraint_violation": 1.0584866316776242e-12,
+      "oracle_num_actions": 28,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "raw_m_specific_exact_hard_required_gain": 5.535852320568658,
+      "raw_m_specific_oracle_mse_at_L1": 2.213656704128758,
+      "raw_m_specific_seed": 2,
+      "selected_exact_hard_required_gain": 5.535852320568658,
+      "selected_oracle_mse_at_L1": 2.213656704128758,
+      "selected_seed": 2,
+      "selected_source_m": 1,
+      "system": "All-pair actions"
+    },
+    {
+      "drawn_action": "action on states 0 and 6",
+      "gain_budget_L": 1.0,
+      "m": 2,
+      "n": 8,
+      "oracle_max_constraint_violation": 1.2287504347341383e-11,
+      "oracle_num_actions": 28,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "raw_m_specific_exact_hard_required_gain": 2.3247703725389597,
+      "raw_m_specific_oracle_mse_at_L1": 0.2687604332466903,
+      "raw_m_specific_seed": 5,
+      "selected_exact_hard_required_gain": 2.3247703725389597,
+      "selected_oracle_mse_at_L1": 0.2687604332466903,
+      "selected_seed": 5,
+      "selected_source_m": 2,
+      "system": "All-pair actions"
+    },
+    {
+      "drawn_action": "action on states 4 and 7",
+      "gain_budget_L": 1.0,
+      "m": 3,
+      "n": 8,
+      "oracle_max_constraint_violation": 1.538813521051452e-11,
+      "oracle_num_actions": 28,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "raw_m_specific_exact_hard_required_gain": 1.5559670516024697,
+      "raw_m_specific_oracle_mse_at_L1": 0.0447164865486947,
+      "raw_m_specific_seed": 7,
+      "selected_exact_hard_required_gain": 1.5559670516024697,
+      "selected_oracle_mse_at_L1": 0.0447164865486947,
+      "selected_seed": 7,
+      "selected_source_m": 3,
+      "system": "All-pair actions"
+    }
+  ],
+  "n": 8,
+  "outputs": {
+    "caption_txt": "figures/mechanism_dimension_transition_arrows_caption.txt",
+    "data_json": "figures/mechanism_dimension_transition_arrows_data.json",
+    "error_table_csv": "figures/mechanism_prediction_error_table_monotone.csv",
+    "pdf": "figures/mechanism_dimension_transition_arrows.pdf",
+    "png": "figures/mechanism_dimension_transition_arrows.png",
+    "svg": "figures/mechanism_dimension_transition_arrows.svg"
+  },
+  "selected_panels": [
+    {
+      "candidate_count": 1,
+      "display_system": "Cycle",
+      "drawn_action_index": 0,
+      "drawn_action_label": "cyclic action",
+      "drawn_transition": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0
+      ],
+      "embedding": [
+        [
+          8.86299226196535
+        ],
+        [
+          4.260121529426651
+        ],
+        [
+          -6.463872633289302
+        ],
+        [
+          -31.577835262674622
+        ],
+        [
+          27.159332285941478
+        ],
+        [
+          -24.98518613576932
+        ],
+        [
+          11.872223977199882
+        ],
+        [
+          10.872223977199882
+        ]
+      ],
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 2.34594912688328,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 58.7371675486161,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 2.4868995751603507e-14,
+      "oracle_mse_at_budget": 109.4444503751859,
+      "oracle_num_actions": 1,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "seed": 2,
+      "selection_rule": "minimum L=1 oracle MSE among completed source dimensions k<=target_m, after zero-padding lower-dimensional embeddings",
+      "selection_type": "optimized",
+      "source_csv_gain": 2.34594912688328,
+      "source_m": 1,
+      "target_m": 1,
+      "witness": {
+        "action_changed_states": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "action_index": 0,
+        "action_label": "cyclic action",
+        "current_pair": [
+          2,
+          5
+        ],
+        "d_next": 43.450059239874506,
+        "d_now": 18.52131350248002,
+        "ratio": 2.34594912688328,
+        "successor_pair_ordered": [
+          3,
+          6
+        ],
+        "successor_pair_unordered": [
+          3,
+          6
+        ]
+      }
+    },
+    {
+      "candidate_count": 2,
+      "display_system": "Cycle",
+      "drawn_action_index": 0,
+      "drawn_action_label": "cyclic action",
+      "drawn_transition": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0
+      ],
+      "embedding": [
+        [
+          1.3065629648763768,
+          -7.524769097052805e-18
+        ],
+        [
+          0.9238795325112871,
+          0.9238795325112868
+        ],
+        [
+          1.699594982257451e-16,
+          1.3065629648763768
+        ],
+        [
+          -0.9238795325112868,
+          0.9238795325112871
+        ],
+        [
+          -1.3065629648763768,
+          1.5248304618498027e-16
+        ],
+        [
+          -0.9238795325112872,
+          -0.9238795325112868
+        ],
+        [
+          -1.5005613233832098e-16,
+          -1.3065629648763768
+        ],
+        [
+          0.9238795325112867,
+          -0.9238795325112872
+        ]
+      ],
+      "embedding_source": "analytic regular octagon from full-run outputs",
+      "exact_hard_gain": 1.0000000000000004,
+      "gain_budget": 1.0,
+      "init_kind": "regular_polygon",
+      "max_distance": 2.6131259297527536,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 0.0,
+      "oracle_mse_at_budget": 0.0,
+      "oracle_num_actions": 1,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "seed": null,
+      "selection_rule": "minimum L=1 oracle MSE among completed source dimensions k<=target_m, after zero-padding lower-dimensional embeddings",
+      "selection_type": "analytic_construction",
+      "source_csv_gain": 1.0000000000000004,
+      "source_m": 2,
+      "target_m": 2,
+      "witness": {
+        "action_changed_states": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "action_index": 0,
+        "action_label": "cyclic action",
+        "current_pair": [
+          6,
+          7
+        ],
+        "d_next": 1.0000000000000004,
+        "d_now": 1.0,
+        "ratio": 1.0000000000000004,
+        "successor_pair_ordered": [
+          7,
+          0
+        ],
+        "successor_pair_unordered": [
+          0,
+          7
+        ]
+      }
+    },
+    {
+      "candidate_count": 3,
+      "display_system": "Cycle",
+      "drawn_action_index": 0,
+      "drawn_action_label": "cyclic action",
+      "drawn_transition": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0
+      ],
+      "embedding": [
+        [
+          1.3065629648763768,
+          -7.524769097052805e-18,
+          0.0
+        ],
+        [
+          0.9238795325112871,
+          0.9238795325112868,
+          0.0
+        ],
+        [
+          1.699594982257451e-16,
+          1.3065629648763768,
+          0.0
+        ],
+        [
+          -0.9238795325112868,
+          0.9238795325112871,
+          0.0
+        ],
+        [
+          -1.3065629648763768,
+          1.5248304618498027e-16,
+          0.0
+        ],
+        [
+          -0.9238795325112872,
+          -0.9238795325112868,
+          0.0
+        ],
+        [
+          -1.5005613233832098e-16,
+          -1.3065629648763768,
+          0.0
+        ],
+        [
+          0.9238795325112867,
+          -0.9238795325112872,
+          0.0
+        ]
+      ],
+      "embedding_source": "analytic regular octagon from full-run outputs",
+      "exact_hard_gain": 1.0000000000000004,
+      "gain_budget": 1.0,
+      "init_kind": "regular_polygon",
+      "max_distance": 2.6131259297527536,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 0.0,
+      "oracle_mse_at_budget": 0.0,
+      "oracle_num_actions": 1,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": true,
+      "seed": null,
+      "selection_rule": "minimum L=1 oracle MSE among completed source dimensions k<=target_m, after zero-padding lower-dimensional embeddings",
+      "selection_type": "analytic_construction",
+      "source_csv_gain": 1.0000000000000004,
+      "source_m": 2,
+      "target_m": 3,
+      "witness": {
+        "action_changed_states": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "action_index": 0,
+        "action_label": "cyclic action",
+        "current_pair": [
+          6,
+          7
+        ],
+        "d_next": 1.0000000000000004,
+        "d_now": 1.0,
+        "ratio": 1.0000000000000004,
+        "successor_pair_ordered": [
+          7,
+          0
+        ],
+        "successor_pair_unordered": [
+          0,
+          7
+        ]
+      }
+    },
+    {
+      "candidate_count": 1,
+      "display_system": "Adjacent pair actions",
+      "drawn_action_index": 5,
+      "drawn_action_label": "action on states 5 and 6",
+      "drawn_transition": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        5,
+        7
+      ],
+      "embedding": [
+        [
+          0.5668375346312202
+        ],
+        [
+          -2.343458579268392
+        ],
+        [
+          -0.4331624653687797
+        ],
+        [
+          3.7398660154648717
+        ],
+        [
+          2.64628667583738
+        ],
+        [
+          7.229278097175765
+        ],
+        [
+          -7.449191956191736
+        ],
+        [
+          -3.9564553222803296
+        ]
+      ],
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 3.206573975685469,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 14.678470053367501,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 2.540190280342358e-13,
+      "oracle_mse_at_budget": 2.321536628506705,
+      "oracle_num_actions": 7,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "seed": 5,
+      "selection_rule": "minimum L=1 oracle MSE among completed source dimensions k<=target_m, after zero-padding lower-dimensional embeddings",
+      "selection_type": "optimized",
+      "source_csv_gain": 3.206573975685469,
+      "source_m": 1,
+      "target_m": 1,
+      "witness": {
+        "action_changed_states": [
+          5,
+          6
+        ],
+        "action_index": 5,
+        "action_label": "action on states 5 and 6",
+        "current_pair": [
+          3,
+          5
+        ],
+        "d_next": 11.189057971656608,
+        "d_now": 3.4894120817108933,
+        "ratio": 3.206573975685469,
+        "successor_pair_ordered": [
+          3,
+          6
+        ],
+        "successor_pair_unordered": [
+          3,
+          6
+        ]
+      }
+    },
+    {
+      "candidate_count": 2,
+      "display_system": "Adjacent pair actions",
+      "drawn_action_index": 2,
+      "drawn_action_label": "action on states 2 and 3",
+      "drawn_transition": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "embedding": [
+        [
+          -0.793323153845069,
+          -2.4315628345353937
+        ],
+        [
+          -0.9746385654856943,
+          -1.4453243434998873
+        ],
+        [
+          -0.014272640338764589,
+          -1.0982078913608284
+        ],
+        [
+          -0.20489403114557025,
+          -0.10173801151090207
+        ],
+        [
+          0.7414213094644639,
+          0.2534029907749431
+        ],
+        [
+          0.5473616029677545,
+          1.2511317077092337
+        ],
+        [
+          1.483476573020702,
+          1.602825840220382
+        ],
+        [
+          -0.7851310946378225,
+          1.9694725422024526
+        ]
+      ],
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 1.560477598995624,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 4.63250569079561,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 2.1040058584276267e-11,
+      "oracle_mse_at_budget": 0.09375181309368065,
+      "oracle_num_actions": 7,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "seed": 9,
+      "selection_rule": "minimum L=1 oracle MSE among completed source dimensions k<=target_m, after zero-padding lower-dimensional embeddings",
+      "selection_type": "optimized",
+      "source_csv_gain": 1.560477598995624,
+      "source_m": 2,
+      "target_m": 2,
+      "witness": {
+        "action_changed_states": [
+          2,
+          3
+        ],
+        "action_index": 2,
+        "action_label": "action on states 2 and 3",
+        "current_pair": [
+          3,
+          5
+        ],
+        "d_next": 2.4155391892935967,
+        "d_now": 1.5479486478039282,
+        "ratio": 1.560477598995624,
+        "successor_pair_ordered": [
+          2,
+          5
+        ],
+        "successor_pair_unordered": [
+          2,
+          5
+        ]
+      }
+    },
+    {
+      "candidate_count": 3,
+      "display_system": "Adjacent pair actions",
+      "drawn_action_index": 2,
+      "drawn_action_label": "action on states 2 and 3",
+      "drawn_transition": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "embedding": [
+        [
+          -0.793323153845069,
+          -2.4315628345353937,
+          0.0
+        ],
+        [
+          -0.9746385654856943,
+          -1.4453243434998873,
+          0.0
+        ],
+        [
+          -0.014272640338764589,
+          -1.0982078913608284,
+          0.0
+        ],
+        [
+          -0.20489403114557025,
+          -0.10173801151090207,
+          0.0
+        ],
+        [
+          0.7414213094644639,
+          0.2534029907749431,
+          0.0
+        ],
+        [
+          0.5473616029677545,
+          1.2511317077092337,
+          0.0
+        ],
+        [
+          1.483476573020702,
+          1.602825840220382,
+          0.0
+        ],
+        [
+          -0.7851310946378225,
+          1.9694725422024526,
+          0.0
+        ]
+      ],
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 1.560477598995624,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 4.63250569079561,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 2.1040058584276267e-11,
+      "oracle_mse_at_budget": 0.09375181309368064,
+      "oracle_num_actions": 7,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": true,
+      "seed": 9,
+      "selection_rule": "minimum L=1 oracle MSE among completed source dimensions k<=target_m, after zero-padding lower-dimensional embeddings",
+      "selection_type": "optimized",
+      "source_csv_gain": 1.560477598995624,
+      "source_m": 2,
+      "target_m": 3,
+      "witness": {
+        "action_changed_states": [
+          2,
+          3
+        ],
+        "action_index": 2,
+        "action_label": "action on states 2 and 3",
+        "current_pair": [
+          3,
+          5
+        ],
+        "d_next": 2.4155391892935967,
+        "d_now": 1.5479486478039282,
+        "ratio": 1.560477598995624,
+        "successor_pair_ordered": [
+          2,
+          5
+        ],
+        "successor_pair_unordered": [
+          2,
+          5
+        ]
+      }
+    },
+    {
+      "candidate_count": 1,
+      "display_system": "All-pair actions",
+      "drawn_action_index": 22,
+      "drawn_action_label": "action on states 4 and 5",
+      "drawn_transition": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7
+      ],
+      "embedding": [
+        [
+          0.49999999999625233
+        ],
+        [
+          -0.5000000000037477
+        ],
+        [
+          -1.7108736645622877
+        ],
+        [
+          -4.9923441210918575
+        ],
+        [
+          4.99234412116893
+        ],
+        [
+          -3.188703477507071
+        ],
+        [
+          3.188703477492365
+        ],
+        [
+          1.7108736645074165
+        ]
+      ],
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 5.535852320568658,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 9.984688242260788,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 1.0584866316776242e-12,
+      "oracle_mse_at_budget": 2.213656704128758,
+      "oracle_num_actions": 28,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "seed": 2,
+      "selection_rule": "minimum L=1 oracle MSE among completed source dimensions k<=target_m, after zero-padding lower-dimensional embeddings",
+      "selection_type": "optimized",
+      "source_csv_gain": 5.535852320568658,
+      "source_m": 1,
+      "target_m": 1,
+      "witness": {
+        "action_changed_states": [
+          4,
+          5
+        ],
+        "action_index": 22,
+        "action_label": "action on states 4 and 5",
+        "current_pair": [
+          3,
+          5
+        ],
+        "d_next": 9.984688242260788,
+        "d_now": 1.8036406435847865,
+        "ratio": 5.535852320568658,
+        "successor_pair_ordered": [
+          3,
+          4
+        ],
+        "successor_pair_unordered": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "candidate_count": 2,
+      "display_system": "All-pair actions",
+      "drawn_action_index": 5,
+      "drawn_action_label": "action on states 0 and 6",
+      "drawn_transition": [
+        6,
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        7
+      ],
+      "embedding": [
+        [
+          -0.05135807442645273,
+          -0.8847889754213627
+        ],
+        [
+          -1.4267874392156448,
+          -1.0871748052648755
+        ],
+        [
+          0.013065341140715996,
+          0.11313367865893223
+        ],
+        [
+          1.292526909564903,
+          -1.2376161411282367
+        ],
+        [
+          -1.5283956432095374,
+          0.3097993066275169
+        ],
+        [
+          1.5542635387755726,
+          0.13710963475453194
+        ],
+        [
+          -0.6207464492232689,
+          1.3648745496111727
+        ],
+        [
+          0.7674318165937124,
+          1.284662752162321
+        ]
+      ],
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 2.3247703725389597,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 3.2311316193226762,
+      "min_distance": 1.0,
+      "n": 8,
+      "oracle_max_constraint_violation": 1.2287504347341383e-11,
+      "oracle_mse_at_budget": 0.2687604332466903,
+      "oracle_num_actions": 28,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "seed": 5,
+      "selection_rule": "minimum L=1 oracle MSE among completed source dimensions k<=target_m, after zero-padding lower-dimensional embeddings",
+      "selection_type": "optimized",
+      "source_csv_gain": 2.32477037253896,
+      "source_m": 2,
+      "target_m": 2,
+      "witness": {
+        "action_changed_states": [
+          0,
+          6
+        ],
+        "action_index": 5,
+        "action_label": "action on states 0 and 6",
+        "current_pair": [
+          0,
+          3
+        ],
+        "d_next": 3.2301041377692234,
+        "d_now": 1.3894293285583807,
+        "ratio": 2.3247703725389597,
+        "successor_pair_ordered": [
+          6,
+          3
+        ],
+        "successor_pair_unordered": [
+          3,
+          6
+        ]
+      }
+    },
+    {
+      "candidate_count": 3,
+      "display_system": "All-pair actions",
+      "drawn_action_index": 24,
+      "drawn_action_label": "action on states 4 and 7",
+      "drawn_transition": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        5,
+        6,
+        4
+      ],
+      "embedding": [
+        [
+          -0.49388276091473143,
+          0.02740856459618867,
+          0.6586427409488096
+        ],
+        [
+          0.21609593798806176,
+          0.6873046932269506,
+          0.39924488135005576
+        ],
+        [
+          0.341402948464244,
+          0.4845734595925253,
+          -0.5719390353534726
+        ],
+        [
+          -0.22633987895716406,
+          -0.7806173841465157,
+          0.13374763473441217
+        ],
+        [
+          -0.5842147692024529,
+          0.548729253138215,
+          -0.18992361948303432
+        ],
+        [
+          -0.3166718873076529,
+          -0.2592966956105328,
+          -0.7148187256672236
+        ],
+        [
+          0.5944587101765799,
+          -0.4554165622451941,
+          -0.3430688966283027
+        ],
+        [
+          0.4691516997531153,
+          -0.25268532855163706,
+          0.6281150200987557
+        ]
+      ],
+      "embedding_source": "best optimized full-run embedding",
+      "exact_hard_gain": 1.5559670516024697,
+      "gain_budget": 1.0,
+      "init_kind": "random_gaussian",
+      "max_distance": 1.5559670516039308,
+      "min_distance": 1.0000000000000002,
+      "n": 8,
+      "oracle_max_constraint_violation": 1.538813521051452e-11,
+      "oracle_mse_at_budget": 0.0447164865486947,
+      "oracle_num_actions": 28,
+      "oracle_solver": "scipy SLSQP",
+      "padded_from_lower_dimension": false,
+      "seed": 7,
+      "selection_rule": "minimum L=1 oracle MSE among completed source dimensions k<=target_m, after zero-padding lower-dimensional embeddings",
+      "selection_type": "optimized",
+      "source_csv_gain": 1.5559670516024704,
+      "source_m": 3,
+      "target_m": 3,
+      "witness": {
+        "action_changed_states": [
+          4,
+          7
+        ],
+        "action_index": 24,
+        "action_label": "action on states 4 and 7",
+        "current_pair": [
+          4,
+          5
+        ],
+        "d_next": 1.5559670516024702,
+        "d_now": 1.0,
+        "ratio": 1.5559670516024702,
+        "successor_pair_ordered": [
+          7,
+          5
+        ],
+        "successor_pair_unordered": [
+          5,
+          7
+        ]
+      }
+    }
+  ],
+  "selection_rule": "For each target m, evaluate completed source dimensions k<=m after zero-padding; select the smallest L=1 oracle MSE.",
+  "state_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "target_dimensions": [
+    1,
+    2,
+    3
+  ],
+  "used_smoke_outputs": false
+}
