@@ -2,8 +2,3 @@ __pycache__/
 *.pyc
 *.pyo
 *.png
-!Loss and Rank.png
-!Prediction_result.png
-!latent_space_distribution.png
-!multi_action_fields.png
-!appendix_wandb_figures/*.png

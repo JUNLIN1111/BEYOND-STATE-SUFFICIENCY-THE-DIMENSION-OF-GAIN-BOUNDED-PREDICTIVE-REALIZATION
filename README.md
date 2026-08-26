@@ -61,11 +61,6 @@ Some representative artifacts already saved in the repository:
   <img src="le-wm/figures/lewm_pusht_main_v3.png" width="45%" alt="LeWorldModel PushT latent-width diagnostics">
 </p>
 
-<p align="center">
-  <img src="controlled_system/Manifold/multi_action_fields.png" width="45%" alt="Latent flow multi-action fields">
-  <img src="controlled_system/Manifold/latent_space_distribution.png" width="45%" alt="Latent space distribution">
-</p>
-
 ## Repository Map 🗂️
 
 | Path | Role | How it relates to the paper/project |
@@ -232,13 +227,6 @@ Key files:
 - `visualize.py`: latent, prediction, and planning visualizations.
 
 This work is less directly tied to the final `d_PR` definition, but it records the path that led to the sharper finite-system and LeWM diagnostics: first trying to learn useful low-dimensional visual dynamics and latent flows, then realizing that prediction/planning failures often came from latent geometry rather than information alone.
-
-Representative images:
-
-<p align="center">
-  <img src="controlled_system/Manifold/Prediction_result.png" width="45%" alt="Latent-flow prediction result">
-  <img src="controlled_system/Manifold/Loss%20and%20Rank.png" width="45%" alt="Loss and rank during latent-flow training">
-</p>
 
 ## Reproducing Selected Results
 
